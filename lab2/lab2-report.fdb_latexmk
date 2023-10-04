@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1696102540 "c:/Users/tydav/gitLocals/ECE3110/lab2/lab2-report.tex" "lab2-report.pdf" "lab2-report" 1696102549 0
+["pdflatex"] 1696460894 "c:/Users/tydav/gitLocals/ECE3110/lab2/lab2-report.tex" "lab2-report.pdf" "lab2-report" 1696460898 0
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696014808 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1696015336 11548 9ac8bb4c29ec2d516d552195cc0f6f85 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693940154 23178959 27ac4a0f188a5d3cffdae929a5501b80 ""
@@ -153,9 +153,11 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644052122 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644052122 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/tydav/gitLocals/ECE3110/lab2/lab2-report.tex" 1696102539 3317 8191d885dff9cae67704f72a3a8e09a3 ""
-  "lab2-report.aux" 1696102548 787 91794cfc2114c6fae5a681f8c44cb7e1 "pdflatex"
-  "lab2-report.tex" 1696102539 3317 8191d885dff9cae67704f72a3a8e09a3 ""
+  "c:/Users/tydav/gitLocals/ECE3110/lab2/lab2-report.tex" 1696460889 3821 fbfb3eb2b0fdff473de36d7e0e95386c ""
+  "imgs//scope/Circuit1-0.5V-max1.jpg" 1696097244 1715115 c33b7a1d4c3e3214a79a3437e6aa75a6 ""
+  "imgs//scope/Circuit1-10V-max1.jpg" 1696097166 2038631 027629bb7daa86c274a9442dba498fbc ""
+  "lab2-report.aux" 1696460898 926 65c9787bae2f1c5c3509667d38065eb5 "pdflatex"
+  "lab2-report.tex" 1696460889 3821 fbfb3eb2b0fdff473de36d7e0e95386c ""
   (generated)
   "lab2-report.aux"
   "lab2-report.log"

@@ -1,12 +1,27 @@
 \documentclass{article}
 \usepackage{geometry}
 \usepackage{graphicx}
+\graphicspath{ {./imgs/} }
 \usepackage{circuitikz}
 \usepackage{siunitx}
 
 \geometry{margin=1in}
 \author{Ty Davis}
 \title{Lab 2 Report}
+\newcommand{\twopics}[4]{
+\begin{figure}
+\begin{center}
+  \begin{minipage}{.45\textwidth}
+    \includegraphics[width=\textwidth]{#1}
+  \end{minipage}
+  \begin{minipage}{.45\textwidth}
+    \includegraphics[width=\textwidth]{#2}
+  \end{minipage}
+  \label{#3}
+  \caption{#4}
+\end{center}
+\end{figure}
+}
 
 \begin{document}
 \maketitle
@@ -49,7 +64,7 @@ understand the functions of each circuit.
     \draw (0,0) to[sV, v^<=$V$] (0,4)
       to[full diode, l=1N4001] (4,4) node[label={above:V1}]{}
       to[capacitor, l_=1.5 \si{\uF}, *-*] (4,0)
-      -- (0,0)
+      -- (0,00
     (0, 0) node[ground]{}
     ;
     \draw (4,4) -- (6,4)
@@ -103,6 +118,11 @@ voltage from the input. With an input sinusoidal voltage
 of 10 V$_{pk-pk}$, we measure an output half-sine wave
 that is decreased just slightly because of the operating
 voltage of the diode. See Figure \ref{output1}.
+
+\twopics{scope/Circuit1-0.5V-max1}{scope/Circuit1-10V-max1}{output1}{Left: 10V}
+
+% \twopics{scope/Circuit2-4.7k-max-ripple}{scope/Circuit2-47k-ripple-max}
+
 
 \section{Summary}
 
