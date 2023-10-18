@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1697669394 "c:/Users/tydav/gitLocals/ECE3110/lab4/lab4-report.tex" "lab4-report.pdf" "lab4-report" 1697669399 0
-  "../report.sty" 1697068490 469 3387f12d8644aa842f1e83133bed6f91 ""
+["pdflatex"] 1697670586 "c:/Users/tydav/gitLocals/ECE3110/lab4/lab4-report.tex" "lab4-report.pdf" "lab4-report" 1697670589 0
+  "../report.sty" 1697670576 505 82bf6e771685cf48d3173635564dff90 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697667875 161116 9ea4e946913438a5c1e6211642bc8844 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693940154 23178959 27ac4a0f188a5d3cffdae929a5501b80 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -38,7 +38,6 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1644000708 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.sty" 1575403108 8356 7bbb2c2373aa810be568c29e333da8ed ""
-  "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576766904 5412 d5a2436094cd7be85769db90f29250a6 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty" 1601735609 18568 4409f8f50cd365c68e684407e5350b1b ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty" 1623005277 20089 80423eac55aa175305d35b49e04fe23b ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex" 1673778790 1016 1c2b89187d12a2768764b83b4945667c ""
@@ -121,9 +120,6 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1665067579 3171 1cf0d440b5464e2f034398ce4ef36f75 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
-  "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/grfext/grfext.sty" 1575403074 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
-  "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty" 1656236481 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
-  "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1680182075 29768 5600b3a98028e2e01b60e7f98fbf4b9c ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty" 1673778790 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty" 1673778790 373 00b204b1d7d095b892ad31a7494b0373 ""
@@ -141,13 +137,13 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644052122 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644052122 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/tydav/gitLocals/ECE3110/lab4/lab4-report.tex" 1697669386 4864 83a8b5e94a924bb01d4e5c405a90c141 ""
+  "c:/Users/tydav/gitLocals/ECE3110/lab4/lab4-report.tex" 1697670582 4832 904506554c0a210aeaa148b9b4e85e26 ""
   "imgs/meas/sweepvds.png" 1697669101 33858 1d4d0dcfce071ef7ae597ff4345403dc ""
   "imgs/meas/sweepvgs.png" 1697669100 19279 fc546d14ac0f89ddf4727e73900e6440 ""
   "imgs/sim/Id vs Vds.png" 1697667757 10740 13c2da8a9e7891a5197438338f548d3c ""
   "imgs/sim/Id vs Vgs current starts.png" 1697667757 12256 c7e2e39f710d461cdefcba8de63f1fb9 ""
-  "lab4-report.aux" 1697669399 1332 cbf48633267c4785921d3bce37c20f86 "pdflatex"
-  "lab4-report.tex" 1697669386 4864 83a8b5e94a924bb01d4e5c405a90c141 ""
+  "lab4-report.aux" 1697670588 1332 cbf48633267c4785921d3bce37c20f86 "pdflatex"
+  "lab4-report.tex" 1697670582 4832 904506554c0a210aeaa148b9b4e85e26 ""
   (generated)
   "lab4-report.aux"
   "lab4-report.log"
