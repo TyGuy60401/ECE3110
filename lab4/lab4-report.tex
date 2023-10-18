@@ -27,10 +27,10 @@ flow through the other portion of the device.
     \ctikzset{tripoles/mos style/arrows}
     \def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
     \draw (0,0) node[ground]{} to
-    [voltage source, v^=$V_{gs}$, invert] ++(0,2) to (1,2);
+    [voltage source, v^=v$_{gs}$, invert] ++(0,2) to (1,2);
     \draw (2,2) node[nmos](Q1){\killdepth{2N2700}};
     \draw (2,1.25) to (2,0) node[ground]{};
-    \draw (2, 2.75) -- (2,3) -- (4,3) to [voltage source, v^=$V_{ds}$] (4,0) node[ground]{};
+    \draw (2, 2.75) -- (2,3) -- (4,3) to [voltage source, v^=v$_{ds}$] (4,0) node[ground]{};
   \end{circuitikz}
   \caption{Circuit Featuring an NMOS IV Component}
   \label{maincircuit}
@@ -53,14 +53,14 @@ These findings match our simulation from Multisim as shown in Figure
 \ref{simcurrentstarts}.
 \begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=.6\textwidth]{imgs/meas/sweepvds}
+    \includegraphics[width=0.7\textwidth]{imgs/meas/sweepvgs}
   \end{center}
   \caption{Results from Sweeping the V$_{gs}$ Value}
   \label{results1}
 \end{figure}
 \begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.6\textwidth]{imgs/sim/Id vs Vgs current starts}
+    \includegraphics[width=0.7\textwidth]{imgs/sim/Id vs Vgs current starts}
   \caption{Simulation of Current Starting to Flow}
   \label{simcurrentstarts}
   \end{center}
@@ -75,16 +75,47 @@ The point of this is to see how different voltage values of
 V$_{gs}$ will affect the current output of the transistor.
 As you can see in Figure \ref{multiplecurrents}, the value of 
 V$_{gs}$ will change the current throughput of the transistor 
-for the different values of V$_{ds}$.
+for the different ranges of V$_{ds}$. Our measurements showed
+a similar trend, though the results were affected by some 
+unknown factor at the lower voltages of V$_{ds}$. Because
+of this unknown factor we found that there was an 
+apparent bump in our graphs, and we couldn't find a way
+to prevent that. Regardless, we were able to determine
+that there was a consistent difference in the current 
+throughput as the V$_{gs}$ voltage changed. The higher 
+the V$_{gs}$ voltage, the higher the I$_D$ output.
 
 \begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.6\textwidth]{imgs/sim/Id vs Vds}
+    \includegraphics[width=0.7\textwidth]{imgs/sim/Id vs Vds}
   \caption{Currents Simulated for Various V$_{gs}$ Values}
   \label{multiplecurrents}
   \end{center}
 \end{figure}
-\section{Conclusion}
 
+Our measurements from this portion of the lab can be seen in 
+Figure \ref{results2}.
+
+\begin{figure}[!htb]
+  \begin{center}
+  \includegraphics[width=0.7\textwidth]{imgs/meas/sweepvds}
+  \caption{Results from Measurements when Sweeping V$_{ds}$}
+  \label{results2}
+  \end{center}
+\end{figure}
+  
+\section{Conclusion}
+In this lab I was able to learn a little bit more about 
+the function of MOSFET transistors. It's been interesting
+learning in this class about the details behind
+semiconductors and how they function in more detail. It's 
+apparent why these are used so much in digital circuits 
+because they seem to show such a binary response to stimulus,
+though I'm sure there are plenty of uses in analog circuits 
+as well. I'd be interested in learning more about the analog 
+applications of MOSFET and other transistors. It was interesting
+learning in this lab about the different behavior of the 
+2N2700 transistor when different voltage levels were
+applied.
 
 \end{document}

@@ -58,7 +58,7 @@ def main():
         'title': "Sweeping V$_{gs}$",
         'xlabel': "V$_{gs}$ [V]",
         'ylabel': "I$_D$ [A]",
-        'filename': 'sweepvds.png'
+        'filename': 'sweepvgs.png'
     }
     p2_data = {
         'graphs': [
@@ -71,7 +71,7 @@ def main():
         'title': "Sweeping V$_{ds}$",
         'xlabel': "V$_{ds}$ [V]",
         'ylabel': "I$_D$ [A]",
-        'filename': 'sweepvgs.png'
+        'filename': 'sweepvds.png'
     }
     p1 = Plot(**p1_data)
     p1.makeplot()
