@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{../report}
+\graphicspath{ {./imgs} }
+\title{Lab 4 Report}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+In this lab we are only analyzing one circuit. This is
+the circuit shown in Figure \ref{maincircuit} and it features
+the 2N2700 MOSFET device known as a 2N2700.
+
+\begin{figure}[h!]
+  \begin{center}
+  \begin{circuitikz}[american]
+    \ctikzset{tripoles/mos style/arrows}
+    \def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
+    \draw (0,0) node[ground]{} to
+    [voltage source, v^=$V_{gs}$, invert] ++(0,2) to (1,2);
+    \draw (2,2) node[nmos](Q1){\killdepth{2N2700}};
+    \draw (2,1.25) to (2,0) node[ground]{};
+    \draw (2, 2.75) -- (2,3) -- (4,3) to [voltage source, v^=$V_{ds}$] (4,0) node[ground]{};
+  \end{circuitikz}
+  \caption{Circuit Featuring an NMOS IV Component}
+  \label{maincircuit}
+  \end{center}
+
+\end{figure}
+
+
+\end{document}

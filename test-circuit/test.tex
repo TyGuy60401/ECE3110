@@ -1,0 +1,60 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{circuitikz} 
+\begin{document}
+\begin{circuitikz} 
+\draw
+    (0,0) to [voltage source, v^<=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}
+\draw
+    (0,0) to [voltage source, v_<=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}
+\draw
+    (0,0) to [voltage source, v^>=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}
+\draw
+    (0,0) to [voltage source, v_>=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+
+
+\begin{circuitikz}[american]
+\draw
+    (0,0) to [voltage source, v^<=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}[american]
+\draw
+    (0,0) to [voltage source, v_<=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}[american]
+\draw
+    (0,0) to [voltage source, v^>=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\quad
+\begin{circuitikz}[american]
+\draw
+    (0,0) to [voltage source, v_>=$\underline{U}_{in}$]
+    (0,2)
+;
+\end{circuitikz}
+\end{document}
