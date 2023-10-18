@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
+OUT_DIR = "./imgs/meas/"
 
 def main():
     v1 = [1, 1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5]
@@ -15,22 +17,28 @@ def main():
     vgs25 = pd.DataFrame(i2_1, v2)
     vgs30 = pd.DataFrame(i2_2, v2)
     vgs35 = pd.DataFrame(i2_3, v2)
-    fig, axs = plt.subplots(2)
-    axs[0].plot(vds50, '.')
 
-    colors = ['red', 'green', 'blue']
-    graphs = [vgs25, vgs30, vgs35]
-    for graph in graphs:
-        axs[1].plot(graph, '.', color=colors[graphs.index(graph)])
-        axs[1].plot(graph, linewidth=0.2, color=colors[graphs.index(graph)])
-    # axs[1].plot(vgs25, '.', color=color1)
-    # axs[1].plot(vgs30, '.')
-    # axs[1].plot(vgs35, '.')
+    plot1(vds50)
+    plot2(vgs25, vgs30, vgs35)
 
-    # axs[1].plot(vgs25, linewidth=0.2, color=color1)
-    # axs[1].plot(vgs30, linewidth=0.2)
-    # axs[1].plot(vgs35, linewidth=0.2)
-    plt.show()
+def plot1(df):
+    f = plt.figure()
+    plt.plot(df, '.')
+    plt.title("Sweeping V$_{ds}$")
+    f.savefig(os.path.join(OUT_DIR, "sweepvds.png"))
+
+def plot2(*dfs):
+    f = plt.figure()
+    colors = ['xkcd:ocean', 'xkcd:crimson', 'xkcd:light forest green']
+    i = 0
+    for df in dfs:
+        plt.plot(df, '.', color=colors[i % len(colors)])
+        plt.plot(df, linewidth=0.2, color=colors[i % len(colors)])
+        i += 1
+    plt.xlabel("This is a new x label")
+
+    f.savefig(os.path.join(OUT_DIR, "sweepvgs.png"))
+
 
 
 if __name__ == '__main__':
