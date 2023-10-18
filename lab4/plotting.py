@@ -3,6 +3,39 @@ import pandas as pd
 import os
 
 OUT_DIR = "./imgs/meas/"
+COLORS = ['xkcd:ocean', 'xkcd:crimson', 'xkcd:light forest green']
+
+class Plot():
+    def __init__(self, **kwargs):
+        self.plot_data = {
+            'title': "Title",
+            'xlabel': "X Label",
+            'ylabel': "Y Label",
+            'filename': 'img.png',
+            'graphs': None
+        }
+        for key in self.plot_data.keys():
+            try:
+                self.plot_data[key] = kwargs[key]
+            except KeyError:
+                continue
+        
+        self.f = plt.figure()
+
+    def makeplot(self):
+        i = 0
+        for graph in self.plot_data['graphs']:
+            plt.plot(graph['df'], '.', color=COLORS[i % len(COLORS)])
+            plt.plot(graph['df'], linewidth=0.5, color=COLORS[i % len(COLORS)], label=graph['label'])
+            i += 1
+        plt.legend()
+        plt.title(self.plot_data['title'])
+        plt.xlabel(self.plot_data['xlabel'])
+        plt.ylabel(self.plot_data['ylabel'])
+        self.f.savefig(os.path.join(OUT_DIR, self.plot_data['filename']))
+    
+    
+
 
 def main():
     v1 = [1, 1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5]
@@ -18,27 +51,42 @@ def main():
     vgs30 = pd.DataFrame(i2_2, v2)
     vgs35 = pd.DataFrame(i2_3, v2)
 
-    plot1(vds50)
-    plot2(vgs25, vgs30, vgs35)
-
-def plot1(df):
-    f = plt.figure()
-    plt.plot(df, '.')
-    plt.title("Sweeping V$_{ds}$")
-    f.savefig(os.path.join(OUT_DIR, "sweepvds.png"))
-
-def plot2(*dfs):
-    f = plt.figure()
-    colors = ['xkcd:ocean', 'xkcd:crimson', 'xkcd:light forest green']
-    i = 0
-    for df in dfs:
-        plt.plot(df, '.', color=colors[i % len(colors)])
-        plt.plot(df, linewidth=0.2, color=colors[i % len(colors)])
-        i += 1
-    plt.xlabel("This is a new x label")
-
-    f.savefig(os.path.join(OUT_DIR, "sweepvgs.png"))
-
+    p1_data = {
+        'graphs': [
+            {
+            'label': "V$_{ds}=5$ V",
+            'df': vds50
+        },
+        ],
+        'title': "Sweeping V$_{gs}$",
+        'xlabel': "V$_{gs}$ [V]",
+        'ylabel': "I$_D$ [A]",
+        'filename': 'sweepvds.png'
+    }
+    p2_data = {
+        'graphs': [
+            {
+            'label': "V$_{gs}=2.5$ V",
+            'df': vgs25
+        },
+            {
+            'label': "V$_{gs}=3.0$ V",
+            'df': vgs30
+        },
+            {
+            'label': "V$_{gs}=3.5$ V",
+            'df': vgs35
+        },
+        ],
+        'title': "Sweeping V$_{gs}$",
+        'xlabel': "V$_{gs}$ [V]",
+        'ylabel': "I$_D$ [A]",
+        'filename': 'sweepvgs.png'
+    }
+    p1 = Plot(**p1_data)
+    p1.makeplot()
+    p2 = Plot(**p2_data)
+    p2.makeplot()
 
 
 if __name__ == '__main__':
