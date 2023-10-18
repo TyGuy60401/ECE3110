@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{../report}
+\usepackage[section]{placeins}
 \graphicspath{ {./imgs} }
 \title{Lab 4 Report}
 
@@ -8,7 +9,17 @@
 \section{Introduction}
 In this lab we are only analyzing one circuit. This is
 the circuit shown in Figure \ref{maincircuit} and it features
-the 2N2700 MOSFET device known as a 2N2700.
+the 2N2700 MOSFET device known as a 2N2700. In this lab we 
+aren't using that device as it is intended to be used, but 
+rather we are going to be putting the device under unusual 
+circumstances. This ended up resulting in some irregular 
+patterns in our measurements as you'll see later in the lab
+report.
+
+A MOSFET device is one that allow us to effectively "flip" a 
+switch electronically by supplying a voltage into 
+the device which determines if current should or shouldn't 
+flow through the other portion of the device.
 
 \begin{figure}[h!]
   \begin{center}
@@ -24,8 +35,56 @@ the 2N2700 MOSFET device known as a 2N2700.
   \caption{Circuit Featuring an NMOS IV Component}
   \label{maincircuit}
   \end{center}
+\end{figure}
+
+\section{Sweeping the V$_{gs}$}
+For the first portion of the lab we set up the circuit as 
+shown in Figure \ref{maincircuit}, and we kept the value of V$_{ds}$
+constant at 5 V while sweeping the value of V$_{gs}$. By doing
+this we are analyzing at what value V$_{gs}$ does the MOSFET "turn
+on" and allow current to flow through the other portion of the 
+device. As you can see from Figure \ref{results1}, the current
+flowing through the device just started to flow at about V$_{gs}=2.2$ V
+and made a significant jump at v$_{gs}=2.3$ V. Essentially, when the
+voltage reached 2.3 volts you could consider the transistor as "turned
+on" and significant current was then flowing through the circuit.
+
+These findings match our simulation from Multisim as shown in Figure 
+\ref{simcurrentstarts}.
+\begin{figure}[!htb]
+  \begin{center}
+    \includegraphics[width=.6\textwidth]{imgs/meas/sweepvds}
+  \end{center}
+  \caption{Results from Sweeping the V$_{gs}$ Value}
+  \label{results1}
+\end{figure}
+\begin{figure}[!htb]
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{imgs/sim/Id vs Vgs current starts}
+  \caption{Simulation of Current Starting to Flow}
+  \label{simcurrentstarts}
+  \end{center}
 
 \end{figure}
+
+\section{Sweeping the V$_{ds}$}
+In this second portion of the lab we were tasked with 
+sweeping the value of the V$_{ds}$ voltage which 
+is where the current that we are measuring is coming from.
+The point of this is to see how different voltage values of 
+V$_{gs}$ will affect the current output of the transistor.
+As you can see in Figure \ref{multiplecurrents}, the value of 
+V$_{gs}$ will change the current throughput of the transistor 
+for the different values of V$_{ds}$.
+
+\begin{figure}[!htb]
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{imgs/sim/Id vs Vds}
+  \caption{Currents Simulated for Various V$_{gs}$ Values}
+  \label{multiplecurrents}
+  \end{center}
+\end{figure}
+\section{Conclusion}
 
 
 \end{document}

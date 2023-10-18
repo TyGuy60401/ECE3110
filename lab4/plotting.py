@@ -53,11 +53,8 @@ def main():
 
     p1_data = {
         'graphs': [
-            {
-            'label': "V$_{ds}=5$ V",
-            'df': vds50
-        },
-        ],
+            {'label': "V$_{ds}=5$ V",
+             'df': vds50}],
         'title': "Sweeping V$_{gs}$",
         'xlabel': "V$_{gs}$ [V]",
         'ylabel': "I$_D$ [A]",
@@ -65,21 +62,14 @@ def main():
     }
     p2_data = {
         'graphs': [
-            {
-            'label': "V$_{gs}=2.5$ V",
-            'df': vgs25
-        },
-            {
-            'label': "V$_{gs}=3.0$ V",
-            'df': vgs30
-        },
-            {
-            'label': "V$_{gs}=3.5$ V",
-            'df': vgs35
-        },
-        ],
-        'title': "Sweeping V$_{gs}$",
-        'xlabel': "V$_{gs}$ [V]",
+            {'label': "V$_{gs}=2.5$ V",
+             'df': vgs25},
+            {'label': "V$_{gs}=3.0$ V",
+             'df': vgs30},
+            {'label': "V$_{gs}=3.5$ V",
+             'df': vgs35}],
+        'title': "Sweeping V$_{ds}$",
+        'xlabel': "V$_{ds}$ [V]",
         'ylabel': "I$_D$ [A]",
         'filename': 'sweepvgs.png'
     }
