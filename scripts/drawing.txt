@@ -1,0 +1,36 @@
+
+
+
+Series
+
+         |
+        12k
+         |
+        680
+         |
+
+Parallel
+     ____|____
+     |       |
+    12k     10k
+     |_______|
+         |
+
+
+Series then parallel
+
+         |
+        12k
+     ____|____
+     |       |
+    1.2M    1.4k
+     |_______|
+         |
+
+Series in parallel with series
+
+         |
+        12k
+         |
+        4.7k
+         |
