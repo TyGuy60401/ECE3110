@@ -13,13 +13,238 @@ biased in the saturation region, as well as an NMOS biased in
 the triode region, and finally a diode connected NMOS
 transistor. 
 
-\section{Hand Calculations}
-V$_G$ is the center connection. 
 
-\section{Simulation}
+\begin{figure}[!h]
+  \begin{center}
+  \begin{circuitikz}[american] 
+    \ctikzset{tripoles/mos style/arrows}
+    \def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
 
-\section{Prototyping and Measurement}
+    \draw (0,0) node[ground]{}
+    to[voltage source, v=$15$ V] (0,2)
+    to[resistor, l=R$_2$] (0,3.2)
+    -- (0,5) node[label={left:V$_G$}]{}
+    -- (0,6.8)
+    to[resistor, l=R$_1$] (0,8)
+    to[voltage source, v=$15$ V] (0,10)
+     -- (-2,10) -- (-2, 9) node[ground]{};
 
-\section{Post-Measurement Exercise}
+    \draw (0,5) -- (1.05,5);
+    \draw (2,5) node[nmos](Q1){\killdepth{N$_1$}};
+    \draw (2,5.75) node[label={right:V$_D$}]{} --
+    (2,6.8) to[resistor, l_=R$_D$] (2,8)
+    to[voltage source, v_=$15$ V] (2,10)
+    -- (4,10) -- (4,9) node[ground]{};
+    
+    \draw (2,0) node[ground]{}
+    to[voltage source, v_=$15$ V] (2,2)
+    to[resistor, l_=R$_S$] (2,3.2)
+    -- (2, 4.25) node[label={right:V$_S$}]{};
 
-\section{conclusion}
+    % The open voltage labels
+    \draw (3.5,6.5) to[open, v_=V$_{DS}$] (3.5,3.5);
+    \draw (1,4.7) to[open, v=V$_{GS}$] (1.7,3.8);
+    \draw (1.7,6.2) to [open, v=V$_{DG}$] (1,5.3);
+
+    
+  
+  \end{circuitikz}
+  \caption{The Circuit we Analyze in this Lab}
+  \label{fig:maincircuit}
+  \end{center}
+\end{figure}
+The transistor labeled N$_1$ is the same transistor as 
+we used in the last lab, of the type 2N7000. For the 
+first circuit we were tasked with designing the circuit
+such that I$_D=1$ mA, V$_G=0$ V, and V$_D=+5$ V. We need
+to select the resistor values that will satisfy such a 
+circuit. The rail and drain voltages that we used were
++15~V and -15~V.
+
+\section{Saturation Region Analysis/Experiment}
+\subsection{Hand Calculations}
+The calculations are made for the circuit shown in 
+Figure \ref{fig:maincircuit}.
+
+While searching for a data sheet of the 2N7000G on 
+the internet we found this source on
+\href{https://ww1.microchip.com/downloads/en/devicedoc/2n7000-n-channel-enhancement-mode-vertical-dmos-fet-data-sheet-20005695a.pdf}{Microchip's website}.
+From this data sheet we were able to find that the threshold
+voltage of the 2N7000 transistor is around 2.1 V. 
+We also found from the documentation that at a V$_{GS}$ of 
+5 V, the current I$_D$ was 1 A. We can find k$_n$ from this state
+using the equation $I_D=\frac{1}{2}k_n(V_{GS}-V_{TH})^2$. The
+value of k$_n$ that we found from that equation was k$_n=0.237812$.
+
+With that value of k$_n$, we were able to use that same equation, but
+with a current of I$_D=1$ mA to solve for a new V$_{GS}$ of 
+2.1917 V. Knowing that V$_{GS}=2.1917$ V, we can find V$_S$.
+Using the equation V$_S=$V$_G-$V$_{GS}$, we found that
+V$_S=0-2.1917=-2.1917$.
+
+To finally solve the circuit, we need to select the resistor
+values that will give the specified values. R$_1$ and R$_2$ 
+need to be the same value so that V$_G$ can equal 0, and 
+with a higher resistance there will be less power used in
+the circuit. The largest resistors available in the lab were
+100~k$\Omega$ resistors, so we used those.
+
+To find the value of R$_D$, we used Ohm's law. The voltage
+over that resistor was $15-5=10$ V, and the current through
+the resistor was 1 mA, so using $R=\frac{V}{i}$, we found
+that the resistor we needed to use was 10~k$\Omega$. Likewise,
+we used Ohm's law to find the value of the resistor R$_S$, the
+difference in voltage was $-15-(-2.1917)=12.8083$ V. With just
+1 mA of current, the resulting resistor value was
+12.808~k$\Omega$.
+
+To match those specific resistor values I wrote a python script
+which takes a list of available resistors and shows a 
+combination of resistors which can be combined in a resistor
+network to get near that resistor value. We were able to get
+within 1\% of the resistor value by combining a 15~k, 100~k, and
+680~k resistors in parallel.
+
+
+Based on this specification, V$_{OV}$ is V$_{GS}-$ V$_{TH}=2.1917-2.1=0.0917$ V.
+
+\subsection{Simulation}
+
+As shown in Figure \ref{fig:simulation1}, we simulated the circuit
+and found that the current I$_D$ was just shy of 1~mA, and the
+voltages V$_{G}$, V$_{D}$, and V$_S$ were very similar to our
+calculated values.
+
+\twopics{Part 1 Id}{Part 1 Vs Vd Vg}{fig:simulation1}{Results from the Simulation 1}
+
+\subsection{Prototyping and Measurement}
+After building the circuit we measured several values, shown in 
+Figure \ref{fig:tablevalues1}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{tabular}{ l|l }
+  V$_G$ & -24.1 mV  \\
+  V$_D$ & 5.32 V    \\
+  V$_S$ & -2.30 V   \\
+  V$_{GS}$ & 2.27 V \\
+  V$_{DS}$ & 7.6 V  \\
+  I$_D$ & 0.994 mA \\
+  \multicolumn{2}{c}{Resistor Values} \\
+  R$_S$ & 12.773~k$\Omega$ \\
+  R$_D$ & 9.74~k$\Omega$   \\
+  R$_1$ & 99.61~k$\Omega$  \\
+  R$_2$ & 99.94~k$\Omega$
+\end{tabular}
+\caption{Table of Measured Values from Part 1}
+\label{fig:tablevalues1}
+\end{center}
+\end{figure}
+
+The measurements that we made were right in line with our
+calculations, and we didn't get any interesting results
+like we did in the lab last week.
+
+\subsection{Post-Measurement Exercise}
+
+Our measured values for V$_{GS}$ and V$_{DS}$ were very near
+the calculated values. Small discrepancies could be explained by 
+slightly different resistors or the threshold voltage of the 
+transistor not being exactly 2.1 V.
+
+We directly measured the value of I$_D$ in the circuit and 
+got a value of 0.994 mA. If we use the V$_D$ of 5.32~V, and 
+R$_D$ of 9.74~k$\Omega$, with a V$_{DD}$ of 15~V, we get a
+current of $\frac{15-5.32}{9740}=1.004$ mA. That's close to 
+our measured value, and very close to the calculated value as
+well.
+
+\section{Triode Region Analysis/Experiment}
+
+For this second part of the lab we're redesigning the circuit
+so that I$_D=10$~mA, V$_D=2$~V, and V$_{DS}=0.1$~V. Once again
+we're using the same rail and drain voltages as the first part
+of the lab.
+
+\subsection{Hand Calculations}
+We are using the same circuit from Figure \ref{fig:maincircuit}
+for the calculation in this section as well. As opposed to the
+equation used in part 1, the equation we use to express I$_D$ 
+is $I_D=k_n(V_{OV}-\frac{1}{2}V_{DS})V_{DS}$.
+The k$_n$ value remains the same as was calculated in the 
+first section. Using this, we're able to find the value of
+V$_{OV}$ from the I$_D$ expression. The V$_{OV}$ value that
+we found was 0.4705~V. We can then find V$_{GS}=2.5705$ from 
+the expression V$_{OV}=$V$_{GS}-$V$_{TH}$.
+
+From the defined values of V$_D=2$~V and V$_{DS}=0.1$~V, we
+can find that V$_S=1.9$~V. Using V$_S$ and V$_{GS}$ we find
+that V$_G=4.4705$~V.
+
+To finish designing the circuit we need to select resistor
+values, using a voltage divider to get V$_G=4.4705$~V we got
+R$_1=100$~k$\Omega$ and R$_2=184.9$~k$\Omega$. We were able
+to combine a network of resistors using the same script 
+as above to get near to those values. 
+
+Using the same Ohm's law method as above we were able
+to find R$_D=1.3$~k$\Omega$ and R$_S=1.69$~k$\Omega$.
+
+\subsection{Simulation}
+
+As shown in Figure \ref{fig:simulation2}, we simulated the circuit
+and found that the current I$_D$ was just shy of 10~mA, and the
+voltages V$_{G}$, V$_{D}$, and V$_S$ were very similar to our
+calculated values.
+
+\twopics{Part 2 Id}{Part 2 Vs Vd Vg}{fig:simulation2}{Results from the Simulation 2}
+
+\subsection{Prototyping and Measurement}
+
+We build the circuit and found these measurements, shown
+in Figure \ref{fig:tablevalues2}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{tabular}{ l|l }
+  V$_G$ & 4.731 V  \\
+  V$_D$ & 1.885 V    \\
+  V$_S$ & 1.836 V     \\
+  V$_{GS}$ & 2.907 V   \\
+  V$_{DS}$ & 48.32 mV  \\
+  I$_D$ & 10.20 mA \\
+  \multicolumn{2}{c}{Resistor Values} \\
+  R$_S$ & 1.653~k$\Omega$ \\
+  R$_D$ & 1.287~k$\Omega$   \\
+  R$_1$ & 99.95~k$\Omega$  \\
+  R$_2$ & 0.193~M$\Omega$
+\end{tabular}
+\caption{Table of Measured Values from Part 1}
+\label{fig:tablevalues2}
+\end{center}
+\end{figure}
+
+Those values were mostly right in-line with the calculated
+values.
+
+\subsection{Post-Measurement Exercise}
+
+Those values were aligned very well with the calculated values,
+aside from V$_{DS}$ which was a little higher than it should've
+been. Overall, though, the values were very similar to
+our calculations for an NMOS transistor in the triode region.
+
+\section{Conclusion}
+
+Overall we were able to analyze the transistor in two different
+settings, both in the saturation region and the triode region.
+The most important part of the calculations was understanding the
+implementation of the equation that express I$_D$ for the
+different operation regions. Without appropriately using those
+equations you can't fully analyze the circuit. I also thought
+it was interesting being able to read more information from 
+the data sheets than I have in the past. The more we do these
+labs, the more I understand why transistors are so important
+in the worlds of electrical and computer engineering.
+
+\end{document}
