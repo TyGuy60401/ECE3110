@@ -1,16 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.9)  12 NOV 2023 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  12 NOV 2023 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex
 (c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
-(C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30> (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -27,7 +26,7 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks16
 ) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
@@ -44,8 +43,76 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen146
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks18
- (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+\Gm@dimlist=\toks17
+ (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count196
+\mult@box=\box51
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count197
+\c@collectmore=\count198
+\doublecol@number=\count199
+\multicoltolerance=\count266
+\multicolpretolerance=\count267
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count268
+\c@columnbadness=\count269
+\c@finalcolumnbadness=\count270
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count271
+) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -58,29 +125,29 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 ) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count196
-\l__pdf_internal_box=\box51
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box96
 ) (exam-sheet.aux)
 \openout1 = `exam-sheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -118,17 +185,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen151
-\scratchbox=\box52
-\nofMPsegments=\count198
-\nofMParguments=\count199
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen152
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count273
+\scratchdimen=\dimen160
+\scratchbox=\box97
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen161
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks19
 ) (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -138,42 +205,52 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <imgs/nmos.png, id=1, 419.31656pt x 276.28218pt>
 File: imgs/nmos.png Graphic file (type png)
 <use imgs/nmos.png>
-Package pdftex.def Info: imgs/nmos.png  used on input line 12.
-(pdftex.def)             Requested size: 142.26378pt x 93.73233pt.
+Package pdftex.def Info: imgs/nmos.png  used on input line 18.
+(pdftex.def)             Requested size: 180.45763pt x 118.90019pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 22.
 <imgs/nmos_as_r.png, id=3, 296.60812pt x 209.28188pt>
 File: imgs/nmos_as_r.png Graphic file (type png)
 <use imgs/nmos_as_r.png>
-Package pdftex.def Info: imgs/nmos_as_r.png  used on input line 33.
-(pdftex.def)             Requested size: 142.26378pt x 100.38069pt.
+Package pdftex.def Info: imgs/nmos_as_r.png  used on input line 43.
+(pdftex.def)             Requested size: 180.45763pt x 127.33282pt.
 <imgs/triode_sat.png, id=4, 528.47438pt x 316.18124pt>
 File: imgs/triode_sat.png Graphic file (type png)
 <use imgs/triode_sat.png>
-Package pdftex.def Info: imgs/triode_sat.png  used on input line 39.
-(pdftex.def)             Requested size: 142.26378pt x 85.11436pt.
+Package pdftex.def Info: imgs/triode_sat.png  used on input line 49.
+(pdftex.def)             Requested size: 180.45763pt x 107.96335pt.
+<imgs/mosfet_sat.png, id=5, 665.48625pt x 370.38374pt>
+File: imgs/mosfet_sat.png Graphic file (type png)
+<use imgs/mosfet_sat.png>
+Package pdftex.def Info: imgs/mosfet_sat.png  used on input line 60.
+(pdftex.def)             Requested size: 180.45763pt x 100.43446pt.
+<imgs/mosfet_operation.png, id=6, 380.42125pt x 269.005pt>
+File: imgs/mosfet_operation.png Graphic file (type png)
+<use imgs/mosfet_operation.png>
+Package pdftex.def Info: imgs/mosfet_operation.png  used on input line 68.
+(pdftex.def)             Requested size: 180.45763pt x 127.6104pt.
+<imgs/va_mosfet.png, id=7, 613.29124pt x 357.335pt>
+File: imgs/va_mosfet.png Graphic file (type png)
+<use imgs/va_mosfet.png>
+Package pdftex.def Info: imgs/va_mosfet.png  used on input line 81.
+(pdftex.def)             Requested size: 180.45763pt x 105.14027pt.
  [1
 
-{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/nmos.png> <./imgs/nmos_as_r.png> <./imgs/triode_sat.png>] (exam-sheet.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
- ***********
- ) 
+{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/nmos.png> <./imgs/nmos_as_r.png> <./imgs/triode_sat.png> <./imgs/mosfet_sat.png> <./imgs/mosfet_operation.png> <./imgs/va_mosfet.png>] (exam-sheet.aux) ) 
 Here is how much of TeX's memory you used:
- 1863 strings out of 475248
- 30894 string characters out of 5757814
- 1923801 words of memory out of 5000000
- 23417 multiletter control sequences out of 15000+600000
- 558980 words of font info for 39 fonts, out of 8000000 for 9000
+ 2042 strings out of 476331
+ 34573 string characters out of 5787766
+ 1866660 words of memory out of 5000000
+ 22497 multiletter control sequences out of 15000+600000
+ 513510 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,255b,201s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on exam-sheet.pdf (1 page, 167786 bytes).
+ 57i,5n,62p,255b,245s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on exam-sheet.pdf (1 page, 225955 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
