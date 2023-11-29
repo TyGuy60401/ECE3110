@@ -7,7 +7,11 @@
 \maketitle
 \section{Introduction}
 In this lab we are studying the DC biasing of an NPN
-transistor. 
+transistor. Refer to Figure \ref{fig:maincircuit} to 
+see the circuit that we are building today. Via analysis
+of the circuit we will select resistor values that
+allow us to force this transistor to operate in the
+active and saturation regions.
 
 \begin{figure}[!h]
   \begin{center}
@@ -21,12 +25,79 @@ transistor.
     \draw (Q.C) to[resistor, l_=R$_C$] (Q.C |- Vcc) node[vcc]{};
     \draw (Q.E) to[resistor, l=R$_E$] (Q.E |- Vee) node[vee]{};
     % \node[below=7.5mm, right=-1mm] at (Vee) {$V_{EE}=\SI{-10}{V}$};
-    \node[below=7.5mm, right=9mm, anchor=center] at (Vee) {$V_{EE}=\SI{-10}{V}$};
-    \node[above=7.5mm, right=9mm, anchor=center] at (Vcc) {$V_{CC}=\SI{10}{V}$};
+    \node[below=7.5mm, right=9mm, anchor=center] at (Vee) {$V_{EE}=\SI{-15}{V}$};
+    \node[above=7.5mm, right=9mm, anchor=center] at (Vcc) {$V_{CC}=\SI{15}{V}$};
+    \node[above=4mm] at (Q.B) {B};
+    \node[right=3mm] at (Q.C) {C};
+    \node[right=3mm] at (Q.E) {E};
   \end{circuitikz}
   \caption{NPN Transistor Circuit}
   \label{fig:maincircuit}
   \end{center}
 \end{figure}
+
+\section{Active Region}
+We are tasked to design the circuit such that
+it follows the requirements shown in Figure
+\ref{table:activeTable}.
+
+\begin{figure}[h!]
+\begin{center}
+  \begin{tabular}{r|l}
+    I$_C$ & $\SI{1}{mA}$ \\
+    V$_B$ & $\SI{0}{V}$ \\
+    V$_C$ & $\SI{5}{V}$ 
+  \end{tabular}
+\end{center}
+\caption{Table showing required values for NPN transistor
+in the Active Region.}
+\label{table:activeTable}
+\end{figure}
+
+Using the value for $\beta$ that we got in the last lab
+($\beta=161.02$) we are able to determine the relationships
+between some currents through the transistor. We found
+$i_B$ by using the equation $i_B=\frac{i_C}{\beta}=\SI{6.21}{\mu A}$.
+These leaves the equation $i_E=i_C + i_B$. $i_E=\SI{1.00621}{mA}$.
+
+We now have enough information to determine the values
+of R$_C$ and R$_E$. Using Ohm's Law over the resistors,
+and knowing that the values of V$_C$ and V$_E$ are
+5 V and $-0.7$ V respectively, we could calculate the
+resistor values. R$_C=\SI{10}{k \Omega}$ and R$_E=\SI{14.2}{k
+\Omega}$.  I used a script that I wrote to find resistors
+values that are within 1 percent of the required values
+using a combination of resistors available in the lab.
+
+After an analysis of the left side of the circuit,
+we can find the resistor values that allow close to
+$\SI{6.21}{\mu A}$ of current to flow through the base
+terminal of the transistor.  We selected a resistor
+R$_1$ that allows a current about 200 times the size
+of the base current through R$_1$.  The selected resistor
+value was $\SI{12.137}{k \Omega}$, and this was done
+so that small variations in the current through R$_1$
+will still result in enough current to flow through
+the base of the transistor.
+
+Using KCL and some algebra we are able to find an
+expression for R$_2$ in terms in R$_1$. 
+$$R_2=\frac{\SI{15}{V} R_1}{\SI{15}{V} - \SI{6.21}{\mu A} R_1}$$
+
+Using our selected value for R$_1$ we can find a value
+for R$_2$.  We selected R$_2=\SI{12.198}{k \Omega}$.
+Because the values for R$_1$ and R$_2$ are very close
+together (within the tolerance of the resistors available
+to us in the lab), controlling the amount of current
+going through the base will be difficult, and we can
+basically achieve the same result by selecting identical
+resistors within the same order of magnitude. Because
+of that we selected a resistor value of $\SI{15}{k \Omega}$
+because there were plenty available in our lab.
+
+With all of those values selected we were able to build
+our circuit and analyze it.
+
+
 
 \end{document}
