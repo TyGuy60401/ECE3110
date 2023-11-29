@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699907618 "c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex" "exam-sheet.pdf" "exam-sheet" 1699907619 0
+["pdflatex"] 1699908224 "c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex" "exam-sheet.pdf" "exam-sheet" 1699908225 0
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697657391 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694291236 24142035 a7891f863bb1fd103e2e75eaaf227d56 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -46,9 +46,9 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665063979 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681893161 29940 9473d58112bc8a88f5505b823a053dde ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1686252040 32515 51caec75eda9c8890135f12f1a4eddc3 ""
-  "c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex" 1699907617 6563 fd552730a88df7932d34e2086f9a7073 ""
-  "exam-sheet.aux" 1699907619 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "exam-sheet.tex" 1699907617 6563 fd552730a88df7932d34e2086f9a7073 ""
+  "c:/Users/tydav/gitLocals/ECE3110/exam-sheet/exam-sheet.tex" 1699908223 6680 7b83b8901f10554423474f8807f52d19 ""
+  "exam-sheet.aux" 1699908225 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "exam-sheet.tex" 1699908223 6680 7b83b8901f10554423474f8807f52d19 ""
   "imgs/amplifier_model.png" 1699903561 15481 16508abb1e3bb11cf027543e9f00d1d7 ""
   "imgs/bias_point_q.png" 1699894972 14487 cc9a7ef310f4c29e7b67d932756082c2 ""
   "imgs/common_drain.png" 1699902867 12956 6d57dfa16115b3032b24d9a79c79fbaa ""
