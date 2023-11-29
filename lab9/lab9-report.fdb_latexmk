@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701285408 "c:/Users/tydav/gitLocals/ECE3110/lab9/lab9-report.tex" "lab9-report.pdf" "lab9-report" 1701285414 0
+["pdflatex"] 1701288157 "c:/Users/tydav/gitLocals/ECE3110/lab9/lab9-report.tex" "lab9-report.pdf" "lab9-report" 1701288161 0
   "../report.sty" 1698275071 536 62a126d9b8af4db8ae9032150a4566ca ""
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700958854 203226 862895ce1953c9c2d946f041b1510a27 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693936554 23178959 27ac4a0f188a5d3cffdae929a5501b80 ""
@@ -164,10 +164,11 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/tydav/gitLocals/ECE3110/lab9/lab9-report.tex" 1701285405 3825 0f9f588d01ad57cfd977b6652a6a7337 ""
-  "lab9-report.aux" 1701285413 1278 72acd13e1aa04c8ae6e68edd75326fb8 "pdflatex"
-  "lab9-report.out" 1701285413 214 a9c6a50d6397901ab46ff45fe138984d "pdflatex"
-  "lab9-report.tex" 1701285405 3825 0f9f588d01ad57cfd977b6652a6a7337 ""
+  "c:/Users/tydav/gitLocals/ECE3110/lab9/lab9-report.tex" 1701288136 12470 8b772a5cb89c6184f0220f310acccfea ""
+  "imgs/Multisim Simulation Image.png" 1701286200 34371 7501da6ad957c5605cdc98f329798be9 ""
+  "lab9-report.aux" 1701288160 4645 004202984e3930d5d0abbe2c149bc56d "pdflatex"
+  "lab9-report.out" 1701288160 1693 dd24ba17ccc4b1337a40437ddaf8dcdd "pdflatex"
+  "lab9-report.tex" 1701288136 12470 8b772a5cb89c6184f0220f310acccfea ""
   (generated)
   "lab9-report.aux"
   "lab9-report.log"

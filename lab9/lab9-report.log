@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  29 NOV 2023 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  29 NOV 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -465,7 +465,11 @@ Package translations Info: No language package found. I am going to use `english
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box73
-) (lab9-report.aux)
+) (lab9-report.aux
+
+LaTeX Warning: Label `fig:multisimPart1' multiply defined.
+
+)
 \openout1 = `lab9-report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -560,22 +564,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 22.
  [1
 
-{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (lab9-report.aux)
+{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<./imgs/Multisim Simulation Image.png, id=68, 603.75563pt x 504.38437pt>
+File: ./imgs/Multisim Simulation Image.png Graphic file (type png)
+<use ./imgs/Multisim Simulation Image.png>
+Package pdftex.def Info: ./imgs/Multisim Simulation Image.png  used on input line 111.
+(pdftex.def)             Requested size: 281.85587pt x 235.45985pt.
+ [2 <./imgs/Multisim Simulation Image.png>] [3]
+File: ./imgs/Multisim Simulation Image.png Graphic file (type png)
+<use ./imgs/Multisim Simulation Image.png>
+Package pdftex.def Info: ./imgs/Multisim Simulation Image.png  used on input line 277.
+(pdftex.def)             Requested size: 281.85587pt x 235.45985pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5] [6] (lab9-report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `lab9-report.out' has not changed.
-(rerunfilecheck)             Checksum: A9C6A50D6397901AB46FF45FE138984D;214.
+(rerunfilecheck)             Checksum: DD24BA17CCC4B1337A40437DDAF8DCDD;1693.
  ) 
 Here is how much of TeX's memory you used:
- 40337 strings out of 476331
- 1005586 string characters out of 5787766
- 1873660 words of memory out of 5000000
- 60373 multiletter control sequences out of 15000+600000
- 515927 words of font info for 44 fonts, out of 8000000 for 9000
+ 40388 strings out of 476331
+ 1006494 string characters out of 5787766
+ 1871660 words of memory out of 5000000
+ 60399 multiletter control sequences out of 15000+600000
+ 516234 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,10n,132p,502b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lab9-report.pdf (2 pages, 111004 bytes).
+Output written on lab9-report.pdf (6 pages, 158235 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
