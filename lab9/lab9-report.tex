@@ -12,12 +12,17 @@ transistor.
 \begin{figure}[!h]
   \begin{center}
   \begin{circuitikz}[american]
-    \ctikzset{tripoles/mos style/arrows}
-    \draw (0,-2) node[vee](Vee){$V_{EE}=\SI{-10}{V}$}
+    % \ctikzset{tripoles/mos style/arrows}
+    \ctikzset{}
+    \draw (0,-3) node[vee](Vee){}
     to[resistor, l=R$_2$] (0,0)
-    to[resistor, l=R$_1$] (0,2) node[vcc](Vcc){$V_{CC}=\SI{10}{V}$};
+    to[resistor, l=R$_1$] (0,3) node[vcc](Vcc){};
     \draw (0,0) -- (1,0) node[npn, anchor=B](Q){};
-    % \draw (Q.C) to[resistor, l=R$_C$] (Q.C |- VCC) node[vcc]{};
+    \draw (Q.C) to[resistor, l_=R$_C$] (Q.C |- Vcc) node[vcc]{};
+    \draw (Q.E) to[resistor, l=R$_E$] (Q.E |- Vee) node[vee]{};
+    % \node[below=7.5mm, right=-1mm] at (Vee) {$V_{EE}=\SI{-10}{V}$};
+    \node[below=7.5mm, right=9mm, anchor=center] at (Vee) {$V_{EE}=\SI{-10}{V}$};
+    \node[above=7.5mm, right=9mm, anchor=center] at (Vcc) {$V_{CC}=\SI{10}{V}$};
   \end{circuitikz}
   \caption{NPN Transistor Circuit}
   \label{fig:maincircuit}

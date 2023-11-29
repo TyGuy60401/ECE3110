@@ -1,0 +1,6 @@
+This is some test text And hopefully it can work as
+a vimrc file.  This is some test text And hopefully
+it can work as a vimrc file.  This is some test text
+And hopefully it can work as a vimrc file.  This is
+some test text And hopefully it can work as a vimrc
+file.
