@@ -7,9 +7,21 @@
 \maketitle
 \section{Introduction}
 In this lab we are studying the DC biasing of an NPN
-transistor.
-% Through paper calculation, computer simulation, and physical measurements we will analyze the DC behavior of three similar circuits featuring an NMOS transistor.
-% The first is an NMOS biased in the saturation region,
-% transistor. 
+transistor. 
+
+\begin{figure}[!h]
+  \begin{center}
+  \begin{circuitikz}[american]
+    \ctikzset{tripoles/mos style/arrows}
+    \draw (0,-2) node[vee](Vee){$V_{EE}=\SI{-10}{V}$}
+    to[resistor, l=R$_2$] (0,0)
+    to[resistor, l=R$_1$] (0,2) node[vcc](Vcc){$V_{CC}=\SI{10}{V}$};
+    \draw (0,0) -- (1,0) node[npn, anchor=B](Q){};
+    % \draw (Q.C) to[resistor, l=R$_C$] (Q.C |- VCC) node[vcc]{};
+  \end{circuitikz}
+  \caption{NPN Transistor Circuit}
+  \label{fig:maincircuit}
+  \end{center}
+\end{figure}
 
 \end{document}
