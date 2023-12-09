@@ -1,0 +1,29 @@
+TY  - JOUR
+AU  - Hills, Gage
+AU  - Lau, Christian
+AU  - Wright, Andrew
+AU  - Fuller, Samuel
+AU  - Bishop, Mindy D.
+AU  - Srimani, Tathagata
+AU  - Kanhaiya, Pritpal
+AU  - Ho, Rebecca
+AU  - Amer, Aya
+AU  - Stein, Yosi
+AU  - Murphy, Denis
+AU  - Arvind
+AU  - Chandrakasan, Anantha
+AU  - Shulaker, Max M.
+PY  - 2019
+DA  - 2019/08/01
+TI  - Modern microprocessor built from complementary carbon nanotube transistors
+JO  - Nature
+SP  - 595
+EP  - 602
+VL  - 572
+IS  - 7771
+AB  - Electronics is approaching a major paradigm shift because silicon transistor scaling no longer yields historical energy-efficiency benefits, spurring research towards beyond-silicon nanotechnologies. In particular, carbon nanotube field-effect transistor (CNFET)-based digital circuits promise substantial energy-efficiency benefits, but the inability to perfectly control intrinsic nanoscale defects and variability in carbon nanotubes has precluded the realization of very-large-scale integrated systems. Here we overcome these challenges to demonstrate a beyond-silicon microprocessor built entirely from CNFETs. This 16-bit microprocessor is based on the RISC-V instruction set, runs standard 32-bit instructions on 16-bit data and addresses, comprises more than 14,000 complementary metal–oxide–semiconductor CNFETs and is designed and fabricated using industry-standard design flows and processes. We propose a manufacturing methodology for carbon nanotubes, a set of combined processing and design techniques for overcoming nanoscale imperfections at macroscopic scales across full wafer substrates. This work experimentally validates a promising path towards practical beyond-silicon electronic systems.
+SN  - 1476-4687
+UR  - https://doi.org/10.1038/s41586-019-1493-8
+DO  - 10.1038/s41586-019-1493-8
+ID  - Hills2019
+ER  - 

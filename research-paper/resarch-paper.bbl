@@ -1,0 +1,190 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Hills2019Aug}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=76ba74a3d31777450d05e36e66036524}{%
+           family={Hills},
+           familyi={H\bibinitperiod},
+           given={Gage},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d0eda96027066866e74fba2b579d7ae}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0d9a37f2e0d2c0de3151b5efac260b1}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78e3ecc9c237271f379bac02a266d41f}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=654c4bb49b544a76de2a9d8f436a1492}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Mindy\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f489b1a179b5bfa8fada562195f9dda0}{%
+           family={Srimani},
+           familyi={S\bibinitperiod},
+           given={Tathagata},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f08c67b4e6f6ffb320aa8f2a4cd69d25}{%
+           family={Kanhaiya},
+           familyi={K\bibinitperiod},
+           given={Pritpal},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a25d474909c7ea7836fd36296f1e088}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fc32570ad6c4d60e1fb8deb45885d07}{%
+           family={Amer},
+           familyi={A\bibinitperiod},
+           given={Aya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed7a68057f98f36f91974ba50c2754be}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Yosi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b4a1056d09d608cad39886016b67f05}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaa14574b7947f8c6a012985243cabc5}{%
+           family={Arvind},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dfed61f655576285bb16a8a07b109f1f}{%
+           family={Chandrakasan},
+           familyi={C\bibinitperiod},
+           given={Anantha},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfc8291b47b36ac0b7a4efed63c4df5d}{%
+           family={Shulaker},
+           familyi={S\bibinitperiod},
+           given={Max\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ac64957b3d5381e4cc3807f459fa242e}
+      \strng{fullhash}{937093e472489eb9455a125fbb4cc020}
+      \strng{bibnamehash}{ac64957b3d5381e4cc3807f459fa242e}
+      \strng{authorbibnamehash}{ac64957b3d5381e4cc3807f459fa242e}
+      \strng{authornamehash}{ac64957b3d5381e4cc3807f459fa242e}
+      \strng{authorfullhash}{937093e472489eb9455a125fbb4cc020}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{8}
+      \field{title}{{Modern microprocessor built from complementary carbon nanotube transistors}}
+      \field{volume}{572}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{595\bibrangedash 602}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1493-8
+      \endverb
+    \endentry
+    \entry{175441}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0eb438f77d99a09df40606411f88d30f}{%
+           family={Naber},
+           familyi={N\bibinitperiod},
+           given={J.F.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4db8ab104cd4c63b1e0dd29fbb21c0cf}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={H.P.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3405a9448e5441bb92308a2478e04672}{%
+           family={Sadler},
+           familyi={S\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cece04d4354f0abb1aaaaeda1ce27cc}{%
+           family={Latusis},
+           familyi={L\bibinitperiod},
+           given={J.E.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ec436fe2fa2125aad1fc05adfa18e77}{%
+           family={Tanis},
+           familyi={T\bibinitperiod},
+           given={W.J.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3931a82fa9ff13c93e9512ecf3d96123}
+      \strng{fullhash}{f5c1b065f50cdc512b70f884112c99ab}
+      \strng{bibnamehash}{3931a82fa9ff13c93e9512ecf3d96123}
+      \strng{authorbibnamehash}{3931a82fa9ff13c93e9512ecf3d96123}
+      \strng{authornamehash}{3931a82fa9ff13c93e9512ecf3d96123}
+      \strng{authorfullhash}{f5c1b065f50cdc512b70f884112c99ab}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{12th Annual Symposium on Gallium Arsenide Integrated Circuit (GaAs IC)}
+      \field{title}{A low-power, high-speed 10-bit GaAs DAC}
+      \field{year}{1990}
+      \true{nocite}
+      \field{pages}{33\bibrangedash 36}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/GAAS.1990.175441
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
