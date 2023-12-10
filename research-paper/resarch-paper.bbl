@@ -130,6 +130,82 @@
       \verb 10.1038/s41586-019-1493-8
       \endverb
     \endentry
+    \entry{TudorJenkins_2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b15c9faff2080ec66fb9350922202af}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Tudor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b15c9faff2080ec66fb9350922202af}
+      \strng{fullhash}{8b15c9faff2080ec66fb9350922202af}
+      \strng{bibnamehash}{8b15c9faff2080ec66fb9350922202af}
+      \strng{authorbibnamehash}{8b15c9faff2080ec66fb9350922202af}
+      \strng{authornamehash}{8b15c9faff2080ec66fb9350922202af}
+      \strng{authorfullhash}{8b15c9faff2080ec66fb9350922202af}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The development of studies in semiconductor materials is traced from its beginnings with Michael Faraday in 1833 to the production of the first silicon transistor in 1954, which heralded the age of silicon electronics and microelectronics. Prior to the advent of band theory, work was patchy and driven by needs of technology. However, the arrival of this successful quantum theory of solids, together with a concentration on the growth of pure silicon and germanium and an understanding of their properties, saw an explosion in activity in semiconductor studies that has continued to this day.}
+      \field{journaltitle}{Physics Education}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{A brief history of ... semiconductors}
+      \field{volume}{40}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{430}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0031-9120/40/5/002
+      \endverb
+    \endentry
+    \entry{jiang04/13/2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bd6af67a6b635bb4f4f8d83e8515f47b}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Pisu},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6110a9f7119096bac35df1f6b97e0b04}{%
+           family={Balram},
+           familyi={B\bibinitperiod},
+           given={Krishna\bibnamedelima C},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \strng{fullhash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \strng{bibnamehash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \strng{authorbibnamehash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \strng{authornamehash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \strng{authorfullhash}{24177a158d5af4c5ba6d5aa2870894a8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics express}
+      \field{number}{8}
+      \field{title}{Suspended gallium arsenide platform for building large scale photonic integrated circuits: passive devices}
+      \field{type}{Journal Article}
+      \field{volume}{28}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{12262\bibrangedash 12271}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1364/OE.385618
+      \endverb
+    \endentry
     \entry{175441}{inproceedings}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=0eb438f77d99a09df40606411f88d30f}{%
@@ -182,6 +258,156 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1109/GAAS.1990.175441
+      \endverb
+    \endentry
+    \entry{8529708}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b123d03354503213d69f2d93221e7bb4}{%
+           family={Nikte},
+           familyi={N\bibinitperiod},
+           given={Omkar\bibnamedelima Sandeep},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b123d03354503213d69f2d93221e7bb4}
+      \strng{fullhash}{b123d03354503213d69f2d93221e7bb4}
+      \strng{bibnamehash}{b123d03354503213d69f2d93221e7bb4}
+      \strng{authorbibnamehash}{b123d03354503213d69f2d93221e7bb4}
+      \strng{authornamehash}{b123d03354503213d69f2d93221e7bb4}
+      \strng{authorfullhash}{b123d03354503213d69f2d93221e7bb4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 3rd International Conference for Convergence in Technology (I2CT)}
+      \field{title}{Study and Fabrication of III-V Compound Semiconductor Transistor Using MBE}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/I2CT.2018.8529708
+      \endverb
+    \endentry
+    \entry{1511398}{inproceedings}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=9de9518d9dc6d0b890a7f960e94ea3ad}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c9cfb5ae984ccfee47d7905e1a1f575}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z.G.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a911c8096a86d9d349cb8759d271043}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.H.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b366da8ae64436fee31f6ded8b8b5735}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df27c6731263fc25d727c18f47fb87be}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={X.L.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59bb032754a317bb387389a0826d185c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.Y.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=429ffba73c2cddf16beb939c130995cf}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Z.Y.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5119ef79e9094fc11c6d830cd2c6213e}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={G.X.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5ed000552a804aa311ad838956dcc37}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={C.L.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f856c7dee3ac47631037da0039c632e7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.L.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc471c90af168414a2d6bad8d6f0ac6}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={F.Q.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77d53f58024add08545baf6de2ea5286}
+      \strng{fullhash}{0f3b327604f3a6acd3ea0ce3db6b41ba}
+      \strng{bibnamehash}{77d53f58024add08545baf6de2ea5286}
+      \strng{authorbibnamehash}{77d53f58024add08545baf6de2ea5286}
+      \strng{authornamehash}{77d53f58024add08545baf6de2ea5286}
+      \strng{authorfullhash}{0f3b327604f3a6acd3ea0ce3db6b41ba}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{13th International Conference on Semiconducting and Insulating Materials, 2004. SIMC-XIII-2004.}
+      \field{title}{Controlled growth of III-V compound semiconductor nano-structures and their application in quantum-devices}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{113\bibrangedash 118}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SIM.2005.1511398
+      \endverb
+    \endentry
+    \entry{8116168}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6045ad049b8d1b54260bf9adb105f08e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Hang},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6045ad049b8d1b54260bf9adb105f08e}
+      \strng{fullhash}{6045ad049b8d1b54260bf9adb105f08e}
+      \strng{bibnamehash}{6045ad049b8d1b54260bf9adb105f08e}
+      \strng{authorbibnamehash}{6045ad049b8d1b54260bf9adb105f08e}
+      \strng{authornamehash}{6045ad049b8d1b54260bf9adb105f08e}
+      \strng{authorfullhash}{6045ad049b8d1b54260bf9adb105f08e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Photonics Conference (IPC)}
+      \field{title}{Heterovalent II-VI and III-V semiconductor integration: A platform for solar cell and other optoelectronic device applications}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{421\bibrangedash 421}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/IPCon.2017.8116168
       \endverb
     \endentry
   \enddatalist

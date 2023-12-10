@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'resarch-paper.blg'
-[238] biber-MSWIN64:340> INFO - === 
-[320] Biber.pm:419> INFO - Reading 'resarch-paper.bcf'
-[575] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[617] Biber.pm:4419> INFO - Processing section 0
-[642] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[722] bibtex.pm:1713> INFO - LaTeX decoding ...
-[740] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[861] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[861] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[861] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[861] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[869] bbl.pm:660> INFO - Writing 'resarch-paper.bbl' with encoding 'UTF-8'
-[877] bbl.pm:763> INFO - Output to resarch-paper.bbl
+[1] Config.pm:310> INFO - Logfile is 'resarch-paper.blg'
+[372] biber-MSWIN64:340> INFO - === 
+[466] Biber.pm:419> INFO - Reading 'resarch-paper.bcf'
+[841] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[884] Biber.pm:4419> INFO - Processing section 0
+[934] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[1075] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1116] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[1406] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1406] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1406] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1406] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1433] bbl.pm:660> INFO - Writing 'resarch-paper.bbl' with encoding 'UTF-8'
+[1454] bbl.pm:763> INFO - Output to resarch-paper.bbl
+[1456] Biber.pm:131> WARN - legacy month field 'sep' in entry 'TudorJenkins_2005' is not an integer - this will probably not sort properly.
+[1456] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\tydav\AppData\Local\Temp\biber_tmp_09Hh\8fe4c9854184545302f21ebf0d47516c_30460.utf8, line 33, warning: 6 characters of junk seen at toplevel
+[1456] Biber.pm:133> INFO - WARNINGS: 2
