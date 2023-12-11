@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{ZhoresOpto}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=64506cc87bce06b5e745153deda9dd3f}{%
+           family={Alferov},
+           familyi={A\bibinitperiod},
+           given={Zhores},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64506cc87bce06b5e745153deda9dd3f}
+      \strng{fullhash}{64506cc87bce06b5e745153deda9dd3f}
+      \strng{bibnamehash}{64506cc87bce06b5e745153deda9dd3f}
+      \strng{authorbibnamehash}{64506cc87bce06b5e745153deda9dd3f}
+      \strng{authornamehash}{64506cc87bce06b5e745153deda9dd3f}
+      \strng{authorfullhash}{64506cc87bce06b5e745153deda9dd3f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{10}
+      \field{title}{Heterostructures for Optoelectronics: History and Modern Trends}
+      \field{volume}{101}
+      \field{year}{2013}
+      \field{pages}{2176\bibrangedash 2182}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/JPROC.2013.2274912
+      \endverb
+    \endentry
     \entry{Hills2019Aug}{article}{}
       \name{author}{14}{}{%
         {{un=0,uniquepart=base,hash=76ba74a3d31777450d05e36e66036524}{%
