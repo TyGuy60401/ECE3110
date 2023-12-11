@@ -6,3 +6,8 @@ MBE
 UHV
 OLEDs
 optoelectronic
+bandgap
+selenide
+Perovskite
+perovskite
+methylammonium

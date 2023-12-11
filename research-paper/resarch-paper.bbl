@@ -290,7 +290,7 @@
       \verb 10.1109/GAAS.1990.175441
       \endverb
     \endentry
-    \entry{8529708}{inproceedings}{}
+    \entry{MBE}{inproceedings}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b123d03354503213d69f2d93221e7bb4}{%
            family={Nikte},
@@ -313,7 +313,6 @@
       \field{booktitle}{2018 3rd International Conference for Convergence in Technology (I2CT)}
       \field{title}{Study and Fabrication of III-V Compound Semiconductor Transistor Using MBE}
       \field{year}{2018}
-      \true{nocite}
       \field{pages}{1\bibrangedash 3}
       \range{pages}{3}
       \verb{doi}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  11 DEC 2023 02:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  11 DEC 2023 09:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,12 +606,12 @@ Package biblatex Info: Reference segment=0 on input line 53.
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 166.
+(Font)              <12> on input line 175.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 166.
+(Font)              <8> on input line 175.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 166.
- [2] [3] [4] [5] (resarch-paper.aux)
+(Font)              <6> on input line 175.
+ [2] [3] [4] [5] [6] (resarch-paper.aux)
 Package rerunfilecheck Info: File `resarch-paper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resarch-paper.run.xml'.
@@ -619,17 +619,17 @@ Package logreq Info: Writing requests to 'resarch-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18698 strings out of 476331
- 338840 string characters out of 5787766
+ 18705 strings out of 476331
+ 338984 string characters out of 5787766
  1864660 words of memory out of 5000000
- 38906 multiletter control sequences out of 15000+600000
+ 38910 multiletter control sequences out of 15000+600000
  520425 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,758b,4387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,758b,4387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resarch-paper.pdf (5 pages, 68934 bytes).
+Output written on resarch-paper.pdf (6 pages, 72758 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
