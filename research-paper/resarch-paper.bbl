@@ -157,7 +157,6 @@
       \field{title}{A brief history of ... semiconductors}
       \field{volume}{40}
       \field{year}{2005}
-      \true{nocite}
       \field{pages}{430}
       \range{pages}{1}
       \verb{doi}

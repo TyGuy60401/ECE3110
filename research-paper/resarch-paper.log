@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  10 DEC 2023 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  10 DEC 2023 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,11 +606,11 @@ Package biblatex Info: Reference segment=0 on input line 53.
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 84.
+(Font)              <12> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <6> on input line 143.
  [2] (resarch-paper.aux)
 Package rerunfilecheck Info: File `resarch-paper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -619,17 +619,17 @@ Package logreq Info: Writing requests to 'resarch-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18679 strings out of 476331
- 338315 string characters out of 5787766
- 1858660 words of memory out of 5000000
- 38893 multiletter control sequences out of 15000+600000
+ 18686 strings out of 476331
+ 338522 string characters out of 5787766
+ 1862660 words of memory out of 5000000
+ 38899 multiletter control sequences out of 15000+600000
  520425 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,758b,4387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resarch-paper.pdf (2 pages, 48232 bytes).
+Output written on resarch-paper.pdf (2 pages, 51540 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber resarch-paper"] 1702250505 "resarch-paper.bcf" "resarch-paper.bbl" "resarch-paper" 1702250531 0
+["biber resarch-paper"] 1702266219 "resarch-paper.bcf" "resarch-paper.bbl" "resarch-paper" 1702269085 0
   "./refs.bib" 1702247820 3555 f22ffa9f87c16413055ac242dc6725ed ""
-  "resarch-paper.bcf" 1702250530 125147 16ed695f9e8087844cf530989e2168c2 "pdflatex"
+  "resarch-paper.bcf" 1702269085 125219 c1935dac9ab38e97ff50271481bd6e93 "pdflatex"
   (generated)
   "resarch-paper.bbl"
   "resarch-paper.blg"
   (rewritten before read)
-["pdflatex"] 1702250525 "c:/Users/tydav/gitLocals/ECE3110/research-paper/resarch-paper.tex" "resarch-paper.pdf" "resarch-paper" 1702250531 0
+["pdflatex"] 1702269083 "c:/Users/tydav/gitLocals/ECE3110/research-paper/resarch-paper.tex" "resarch-paper.pdf" "resarch-paper" 1702269085 0
   "C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702150255 203226 862895ce1953c9c2d946f041b1510a27 ""
   "C:/Users/tydav/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693936554 23178959 27ac4a0f188a5d3cffdae929a5501b80 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458470287 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -112,12 +112,12 @@
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657797096 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tydav/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/tydav/gitLocals/ECE3110/research-paper/resarch-paper.tex" 1702250500 1628 1d2fdf42c49632a8f70ab8ebcfcb9dac ""
-  "resarch-paper.aux" 1702250530 1247 0fa15654828aa72ef641a978e79e1303 "pdflatex"
-  "resarch-paper.bbl" 1702250514 16873 2a8ec3af6320ec3c1e775ccf1c6ad4bc "biber resarch-paper"
-  "resarch-paper.out" 1702250530 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resarch-paper.run.xml" 1702250530 2555 1ff64185ca3d8e40562ff7176dda8445 "pdflatex"
-  "resarch-paper.tex" 1702250500 1628 1d2fdf42c49632a8f70ab8ebcfcb9dac ""
+  "c:/Users/tydav/gitLocals/ECE3110/research-paper/resarch-paper.tex" 1702269081 4613 cdd7bd60bfa75ff45cff05ac9af6ee85 ""
+  "resarch-paper.aux" 1702269085 1322 db000639b87957eaf87a5ffd1b766ec9 "pdflatex"
+  "resarch-paper.bbl" 1702266222 16852 6a835db692719a66f2091e2c32fd7798 "biber resarch-paper"
+  "resarch-paper.out" 1702269084 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resarch-paper.run.xml" 1702269085 2555 1ff64185ca3d8e40562ff7176dda8445 "pdflatex"
+  "resarch-paper.tex" 1702269081 4613 cdd7bd60bfa75ff45cff05ac9af6ee85 ""
   (generated)
   "resarch-paper.aux"
   "resarch-paper.bcf"
