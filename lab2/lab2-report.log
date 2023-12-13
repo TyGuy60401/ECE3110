@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  4 OCT 2023 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  12 DEC 2023 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,9 +447,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 46.
 \absvshift=\dimen290
 \absvshift=\dimen291
 
@@ -466,29 +466,90 @@ Overfull \hbox (7.97878pt too wide) in paragraph at lines 99--100
 [1
 
 {C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./imgs//scope/Circuit1-0.5V-max1.jpg, id=19, 2903.84875pt x 1610.015pt>
-File: ./imgs//scope/Circuit1-0.5V-max1.jpg Graphic file (type jpg)
-<use ./imgs//scope/Circuit1-0.5V-max1.jpg>
-Package pdftex.def Info: ./imgs//scope/Circuit1-0.5V-max1.jpg  used on input line 122.
-(pdftex.def)             Requested size: 211.38832pt x 117.18372pt.
-<./imgs//scope/Circuit1-10V-max1.jpg, id=20, 3224.045pt x 1740.5025pt>
-File: ./imgs//scope/Circuit1-10V-max1.jpg Graphic file (type jpg)
-<use ./imgs//scope/Circuit1-10V-max1.jpg>
-Package pdftex.def Info: ./imgs//scope/Circuit1-10V-max1.jpg  used on input line 122.
-(pdftex.def)             Requested size: 211.38832pt x 114.09271pt.
- [2 <./imgs//scope/Circuit1-0.5V-max1.jpg> <./imgs//scope/Circuit1-10V-max1.jpg>] (lab2-report.aux) ) 
+<./imgs//scope/Circuit1-10V-max2.jpg, id=19, 3275.23625pt x 1868.9825pt>
+File: ./imgs//scope/Circuit1-10V-max2.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit1-10V-max2.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit1-10V-max2.jpg  used on input line 139.
+(pdftex.def)             Requested size: 211.38832pt x 120.60405pt.
+<./imgs//scope/Circuit1-0.5V-max2.jpg, id=20, 3139.73pt x 1679.27374pt>
+File: ./imgs//scope/Circuit1-0.5V-max2.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit1-0.5V-max2.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit1-0.5V-max2.jpg  used on input line 139.
+(pdftex.def)             Requested size: 211.38832pt x 113.0514pt.
+<./imgs//multisim/circuit1-10V.png, id=21, 773.89125pt x 412.54124pt>
+File: ./imgs//multisim/circuit1-10V.png Graphic file (type png)
+<use ./imgs//multisim/circuit1-10V.png>
+Package pdftex.def Info: ./imgs//multisim/circuit1-10V.png  used on input line 142.
+(pdftex.def)             Requested size: 211.38832pt x 112.68436pt.
+File: ./imgs//multisim/circuit1-10V.png Graphic file (type png)
+<use ./imgs//multisim/circuit1-10V.png>
+Package pdftex.def Info: ./imgs//multisim/circuit1-10V.png  used on input line 142.
+(pdftex.def)             Requested size: 211.38832pt x 112.68436pt.
+<./imgs//scope/Circuit2-47k-ripple-max.jpg, id=22, 3763.05875pt x 2136.98375pt>
+File: ./imgs//scope/Circuit2-47k-ripple-max.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit2-47k-ripple-max.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit2-47k-ripple-max.jpg  used on input line 163.
+(pdftex.def)             Requested size: 211.38832pt x 120.02896pt.
+<./imgs//scope/Circuit2-4.7k-max-ripple.jpg, id=23, 3600.45125pt x 2046.64626pt>
+File: ./imgs//scope/Circuit2-4.7k-max-ripple.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit2-4.7k-max-ripple.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit2-4.7k-max-ripple.jpg  used on input line 163.
+(pdftex.def)             Requested size: 211.38832pt x 120.13899pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./imgs//multisim/circuit2-47k.png, id=24, 773.89125pt x 407.5225pt>
+File: ./imgs//multisim/circuit2-47k.png Graphic file (type png)
+<use ./imgs//multisim/circuit2-47k.png>
+Package pdftex.def Info: ./imgs//multisim/circuit2-47k.png  used on input line 166.
+(pdftex.def)             Requested size: 211.38832pt x 111.3135pt.
+<./imgs//multisim/circuit2-4.7k.png, id=25, 771.88374pt x 406.51875pt>
+File: ./imgs//multisim/circuit2-4.7k.png Graphic file (type png)
+<use ./imgs//multisim/circuit2-4.7k.png>
+Package pdftex.def Info: ./imgs//multisim/circuit2-4.7k.png  used on input line 166.
+(pdftex.def)             Requested size: 211.38832pt x 111.32466pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./imgs//scope/Circuit1-10V-max2.jpg> <./imgs//scope/Circuit1-0.5V-max2.jpg> <./imgs//multisim/circuit1-10V.png (PNG copy)>]
+<./imgs//scope/Circuit3-10V-max1-max2.jpg, id=31, 2918.905pt x 1647.15375pt>
+File: ./imgs//scope/Circuit3-10V-max1-max2.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit3-10V-max1-max2.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit3-10V-max1-max2.jpg  used on input line 186.
+(pdftex.def)             Requested size: 211.38832pt x 119.28363pt.
+<./imgs//scope/Circuit3-0.5V-max1-max2.jpg, id=32, 2823.54875pt x 1555.8125pt>
+File: ./imgs//scope/Circuit3-0.5V-max1-max2.jpg Graphic file (type jpg)
+<use ./imgs//scope/Circuit3-0.5V-max1-max2.jpg>
+Package pdftex.def Info: ./imgs//scope/Circuit3-0.5V-max1-max2.jpg  used on input line 186.
+(pdftex.def)             Requested size: 211.38832pt x 116.46724pt.
+<./imgs//multisim/circuit3-10V.png, id=33, 773.89125pt x 408.52625pt>
+File: ./imgs//multisim/circuit3-10V.png Graphic file (type png)
+<use ./imgs//multisim/circuit3-10V.png>
+Package pdftex.def Info: ./imgs//multisim/circuit3-10V.png  used on input line 189.
+(pdftex.def)             Requested size: 211.38832pt x 111.58768pt.
+<./imgs//multisim/circuit3-0.5V.png, id=34, 772.8875pt x 406.51875pt>
+File: ./imgs//multisim/circuit3-0.5V.png Graphic file (type png)
+<use ./imgs//multisim/circuit3-0.5V.png>
+Package pdftex.def Info: ./imgs//multisim/circuit3-0.5V.png  used on input line 189.
+(pdftex.def)             Requested size: 211.38832pt x 111.182pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./imgs//scope/Circuit2-47k-ripple-max.jpg> <./imgs//scope/Circuit2-4.7k-max-ripple.jpg> <./imgs//multisim/circuit2-47k.png (PNG copy)> <./imgs//multisim/circuit2-4.7k.png (PNG copy)> <./imgs//scope/Circuit3-10V-max1-max2.jpg> <./imgs//scope/Circuit3-0.5V-max1-max2.jpg>] [4 <./imgs//multisim/circuit3-10V.png (PNG copy)> <./imgs//multisim/circuit3-0.5V.png (PNG copy)>] (lab2-report.aux) ) 
 Here is how much of TeX's memory you used:
- 34376 strings out of 476331
- 918368 string characters out of 5787766
- 1892660 words of memory out of 5000000
- 54495 multiletter control sequences out of 15000+600000
+ 34500 strings out of 476331
+ 922688 string characters out of 5787766
+ 1893660 words of memory out of 5000000
+ 54599 multiletter control sequences out of 15000+600000
  519865 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,103p,472b,1391s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\tydav\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on lab2-report.pdf (2 pages, 3886267 bytes).
+Output written on lab2-report.pdf (4 pages, 12742821 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,7 +9,7 @@
 \author{Ty Davis}
 \title{Lab 2 Report}
 \newcommand{\twopics}[4]{
-\begin{figure}
+\begin{figure}[h!]
 \begin{center}
   \begin{minipage}{.45\textwidth}
     \includegraphics[width=\textwidth]{#1}
@@ -17,8 +17,8 @@
   \begin{minipage}{.45\textwidth}
     \includegraphics[width=\textwidth]{#2}
   \end{minipage}
-  \label{#3}
   \caption{#4}
+  \label{#3}
 \end{center}
 \end{figure}
 }
@@ -31,8 +31,8 @@ In this lab we will be simulating and measuring voltages
 of various rectifier circuits featuring diodes. We'll be 
 learning about the purposes of rectifier circuits, and 
 we'll be analyzing the features of their output. The three
-circuits that we are analyzing are shown in Figures \ref{circuit1},
-\ref{circuit2}, and \ref{circuit3}. We will simulate and 
+circuits that we are analyzing are shown in Figures \ref{fig:circuit1},
+\ref{fig:circuit2}, and \ref{fig:circuit3}. We will simulate and 
 analyze each circuit under two conditions to better 
 understand the functions of each circuit. 
 % \section{Circuits in Latex}
@@ -42,7 +42,6 @@ understand the functions of each circuit.
   \begin{figure}[h!]
   \centering
   \begin{minipage}{.45\textwidth}
-    \label{circuit1}
     \begin{circuitikz}[american] \draw
     (0,0) to[sinusoidal voltage source, v^<=$V$] ++(0,4)
       to[full diode, l=1N4001] (4,4) 
@@ -56,6 +55,7 @@ understand the functions of each circuit.
     ;
     \end{circuitikz}
     \caption{Half-wave Rectifier}
+    \label{fig:circuit1}
   \end{minipage}
   %
   % Circuit 2
@@ -64,11 +64,11 @@ understand the functions of each circuit.
     \draw (0,0) to[sV, v^<=$V$] (0,4)
       to[full diode, l=1N4001] (4,4) node[label={above:V1}]{}
       to[capacitor, l_=1.5 \si{\uF}, *-*] (4,0)
-      -- (0,00
+      -- (0,0)
     (0, 0) node[ground]{}
     ;
     \draw (4,4) -- (6,4)
-      to[resistor, l_=10 \si{\kohm}] (6,0)
+      to[resistor, l_=47 \si{\kohm}] (6,0)
       -- (4,0)
     ;
     \draw
@@ -78,7 +78,7 @@ understand the functions of each circuit.
     ;
     \end{circuitikz}
     \caption{Peak Rectifier Circuit}
-    \label{circuit2}
+    \label{fig:circuit2}
   \end{minipage}
   %
   % Circuit 3
@@ -98,7 +98,7 @@ understand the functions of each circuit.
     ;
     \end{circuitikz}
     \caption{Precision Rectifier}
-    \label{circuit3}
+    \label{fig:circuit3}
   \end{minipage}
   \end{figure}
 \end{center}
@@ -108,22 +108,120 @@ type of rectifier in which we'll analyze the built circuit
 and measurements taken, as well as the computer analysis done
 in Multisim. 
 
-\section{Half-wave Rectifier}
-The first circuit, shown by Figure \ref{circuit1}, is 
-a half-wave rectifier. The diode is preventing current
-from flowing towards the voltage supply, and therefore
-will only allow a positive voltage over $V_0$. The result
-is an output waveform that returns only the positive
-voltage from the input. With an input sinusoidal voltage 
-of 10 V$_{pk-pk}$, we measure an output half-sine wave
-that is decreased just slightly because of the operating
-voltage of the diode. See Figure \ref{output1}.
+\section{Half-wave Rectifier} The first circuit, shown
+by Figure \ref{fig:circuit1}, is a half-wave rectifier.
+The diode is preventing current from flowing towards
+the voltage supply, and therefore will only allow a
+positive voltage over $V_0$. The result is an output
+waveform that returns only the positive voltage from
+the input. With an input sinusoidal voltage of 10~V$_{pk-pk}$,
+we measure an output half-sine wave that is decreased
+just slightly because of the operating voltage of the
+diode. In Figure \ref{fig:output1} you can see that
+the peak voltage of the output signal is 9.4 V when
+10 V input was used, a decrease of about 0.6 V. This
+follows closely with the analysis provided by the constant
+drop model, which says that a drop of about 0.7 V occurs
+across a forward biased diode. The output voltage minimum
+sits at 0 V.
 
-\twopics{scope/Circuit1-0.5V-max1}{scope/Circuit1-10V-max1}{output1}{Left: 10V}
+In Figure \ref{fig:output1} we can see that the half-wave
+rectifier showed very poor performance for a low input
+sinusoidal signal. The output was just a small bump, and
+only rose above 0 V for a small portion of the positive
+range of input voltage. The minimum was 0 V, and the maximum
+was 113 mV.
 
-% \twopics{scope/Circuit2-4.7k-max-ripple}{scope/Circuit2-47k-ripple-max}
+Compare these results with those from the simulation
+as captured in Figure \ref{fig:sim1}.
 
+\twopics{scope/Circuit1-10V-max2}{scope/Circuit1-0.5V-max2}{fig:output1}
+{Half-wave Rectifier Results - Left: 10~V$_{pk}$ Input - Right: 0.5~V$_{pk}$ Input}
+
+\twopics{multisim/circuit1-10V}{multisim/circuit1-10V}{fig:sim1}
+{Half-wave Rectifier Simulation - Left: 10~V$_{pk}$ Input - Right: 0.5~V$_{pk}$ Input}
+
+\section{Peak Rectifier}
+
+Looking at Figure \ref{fig:output2} we can see the
+performance of the peak rectifier with two different
+resistor values being placed in parallel with the capacitor.
+The capacitor allows the voltage to remain high when
+the sinusoidal input voltage dips below its peak. When
+a higher resistance was placed in parallel with the
+capacitor the high output signal was maintained much
+better than with a lower value resistor. In both cases
+an input signal of 10~V$_{pk}$ was used. You can see
+that the peak-to-peak voltage when the 47~\si{\kohm}
+resistor was used was about half the peak-to-peak range
+compared to when the 4.7~k$\Omega$ resistor was used.
+
+Compare our measured results with the simulated ones
+as found in Figure \ref{fig:sim2}.
+
+\twopics{scope/Circuit2-47k-ripple-max}{scope/Circuit2-4.7k-max-ripple}{fig:output2}
+{Peak Rectifier Results - Left: 47 k$\Omega$ Resistor - Right: 4.7~k$\Omega$ Resistor}
+
+\twopics{multisim/circuit2-47k}{multisim/circuit2-4.7k}{fig:sim2}
+{Peak Rectifier Simulation - Left: 47 k$\Omega$ Resistor - Right: 4.7~k$\Omega$ Resistor}
+
+\section{Precision Rectifier}
+
+The precision rectifier shown in Figure \ref{fig:circuit3} 
+utilizes an operational amplifier to accomplish the same
+task as the circuit in Figure \ref{fig:circuit1}, but
+it does the jump better. The configuration ensures that
+the output voltage stays as close to the input voltage
+when the input is positive, and it remains at 0 V when
+the input is negative. You can see from the results in 
+Figure \ref{fig:output3} and the simulation in Figure
+\ref{fig:sim3} that the precision rectifier does a
+much better job at keeping the output voltage
+much closer to the value of the input voltage when it is
+being passed through. Here there is no 0.7~V drop
+that usually occurs with the use of the diode, even at
+a low input signal of just 500~mV.
+
+\twopics{scope/Circuit3-10V-max1-max2}{scope/Circuit3-0.5V-max1-max2}{fig:output3}
+{Precision Rectifier Results - Left: 10~V$_{pk}$ - Right: 0.5~v$_{pk}$}
+
+\twopics{multisim/circuit3-10V}{multisim/circuit3-0.5V}{fig:sim3}
+{Precision Rectifier Simulation - Left: 10~V$_{pk}$ - Right: 0.5~v$_{pk}$}
+
+\section{Post-measurement Exercise}
+
+See the table in Figure \ref{table:resistors} for our
+resistor values.
+
+\begin{figure}[h!]
+\begin{center}
+  \begin{tabular}{c c c}
+    \textbf{Circuit} & \textbf{Target Value} & \textbf{Measured Value}\\
+    1 & 10 \si\kohm & 10.018 \si\kohm\\
+    2 & 47 \si\kohm & 46.24 \si\kohm\\
+    2 & 4.7 \si\kohm & 4.604 \si\kohm\\
+    3 & 10 \si\kohm & 10.018 \si\kohm
+  \end{tabular}
+\end{center}
+\caption{Measured Resistor Values}
+\label{table:resistors}
+\end{figure}
+
+Images of the simulated circuits are omitted
+for brevity, and because they appear the same
+as the simulations that were done with precise
+resistor values.
 
 \section{Summary}
+
+One of the most important uses of semiconductor devices
+is the process of rectification. This allows us to
+take an alternating voltage or current input and translate
+it to direct voltage or current with little loss in
+energy. Simple rectifiers such as the one in Figures
+\ref{fig:circuit1} and \ref{fig:circuit2} illustrate
+that decent results can be achieved in the right conditions
+with very few components. However, a simple operational
+amplifier can take things to the next level.
 
 \end{document}

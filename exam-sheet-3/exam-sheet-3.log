@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  13 NOV 2023 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  11 DEC 2023 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,31 +266,181 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<imgs/slopes.png, id=1, 993.7125pt x 559.08875pt>
-File: imgs/slopes.png Graphic file (type png)
-<use imgs/slopes.png>
-Package pdftex.def Info: imgs/slopes.png  used on input line 33.
-(pdftex.def)             Requested size: 180.45763pt x 101.52737pt.
-<imgs/bjt_model.png, id=3, 521.95pt x 334.24875pt>
-File: imgs/bjt_model.png Graphic file (type png)
-<use imgs/bjt_model.png>
-Package pdftex.def Info: imgs/bjt_model.png  used on input line 44.
-(pdftex.def)             Requested size: 180.45763pt x 115.56075pt.
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
 
-{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/slopes.png> <./imgs/bjt_model.png>] (exam-sheet-3.aux) ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 188--192
+\OT1/cmr/bx/n/10 Common-collector \OT1/cmr/m/n/10 (also known as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+<imgs/1.png, id=1, 363.3575pt x 242.9075pt>
+File: imgs/1.png Graphic file (type png)
+<use imgs/1.png>
+Package pdftex.def Info: imgs/1.png  used on input line 225.
+(pdftex.def)             Requested size: 180.45763pt x 120.63802pt.
+<imgs/2.png, id=3, 379.4175pt x 155.58125pt>
+File: imgs/2.png Graphic file (type png)
+<use imgs/2.png>
+Package pdftex.def Info: imgs/2.png  used on input line 226.
+(pdftex.def)             Requested size: 180.45763pt x 73.99681pt.
+<imgs/3.png, id=4, 266.9975pt x 246.9225pt>
+File: imgs/3.png Graphic file (type png)
+<use imgs/3.png>
+Package pdftex.def Info: imgs/3.png  used on input line 227.
+(pdftex.def)             Requested size: 180.45763pt x 166.89531pt.
+<imgs/4.png, id=5, 527.9725pt x 176.66pt>
+File: imgs/4.png Graphic file (type png)
+<use imgs/4.png>
+Package pdftex.def Info: imgs/4.png  used on input line 228.
+(pdftex.def)             Requested size: 180.45763pt x 60.37898pt.
+<imgs/11.png, id=6, 126.4725pt x 113.82526pt>
+File: imgs/11.png Graphic file (type png)
+<use imgs/11.png>
+Package pdftex.def Info: imgs/11.png  used on input line 234.
+(pdftex.def)             Requested size: 180.45763pt x 162.41455pt.
+<imgs/12.png, id=7, 182.6825pt x 51.19125pt>
+File: imgs/12.png Graphic file (type png)
+<use imgs/12.png>
+Package pdftex.def Info: imgs/12.png  used on input line 235.
+(pdftex.def)             Requested size: 180.45763pt x 50.57013pt.
+<imgs/13.png, id=8, 168.63pt x 156.585pt>
+File: imgs/13.png Graphic file (type png)
+<use imgs/13.png>
+Package pdftex.def Info: imgs/13.png  used on input line 236.
+(pdftex.def)             Requested size: 180.45763pt x 167.57057pt.
+[1
+
+{C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/1.png> <./imgs/2.png> <./imgs/3.png>]
+<imgs/21.png, id=27, 328.22626pt x 131.49126pt>
+File: imgs/21.png Graphic file (type png)
+<use imgs/21.png>
+Package pdftex.def Info: imgs/21.png  used on input line 241.
+(pdftex.def)             Requested size: 180.45763pt x 72.29431pt.
+<imgs/22.png, id=28, 107.2005pt x 98.16675pt>
+File: imgs/22.png Graphic file (type png)
+<use imgs/22.png>
+Package pdftex.def Info: imgs/22.png  used on input line 242.
+(pdftex.def)             Requested size: 180.45763pt x 165.26952pt.
+<imgs/23.png, id=29, 388.45125pt x 540.0175pt>
+File: imgs/23.png Graphic file (type png)
+<use imgs/23.png>
+Package pdftex.def Info: imgs/23.png  used on input line 243.
+(pdftex.def)             Requested size: 180.45763pt x 250.87482pt.
+<imgs/24.png, id=30, 519.9425pt x 147.55125pt>
+File: imgs/24.png Graphic file (type png)
+<use imgs/24.png>
+Package pdftex.def Info: imgs/24.png  used on input line 244.
+(pdftex.def)             Requested size: 180.45763pt x 51.20917pt.
+ [2 <./imgs/4.png> <./imgs/11.png> <./imgs/12.png> <./imgs/13.png> <./imgs/21.png> <./imgs/22.png> <./imgs/23.png> <./imgs/24.png>] (exam-sheet-3.aux) ) 
 Here is how much of TeX's memory you used:
- 2718 strings out of 476331
- 43455 string characters out of 5787766
- 1856660 words of memory out of 5000000
- 23164 multiletter control sequences out of 15000+600000
- 512741 words of font info for 34 fonts, out of 8000000 for 9000
+ 2827 strings out of 476331
+ 44942 string characters out of 5787766
+ 1888660 words of memory out of 5000000
+ 23263 multiletter control sequences out of 15000+600000
+ 513049 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,275b,212s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on exam-sheet-3.pdf (1 page, 167696 bytes).
+ 57i,6n,62p,275b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on exam-sheet-3.pdf (2 pages, 222686 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
