@@ -32,7 +32,7 @@ def main():
         v = vals['v']
         i = vals['i']
         pre = vals['prefix']
-        for v_s in [10, 1.2, 0.55]:
+        for v_s in [10, 1.2, 0.75, 0.55]:
             R = 1000
             V_th = 25.9e-3
             calc_and_plot(v, i, V_th, v_s, R, pre)
