@@ -1,6 +1,6 @@
-PWD c:\Users\tydav\gitLocals\ECE3110\exam-sheet-3
+PWD C:\Users\tydav\gitLocals\ECE3110\exam-sheet-3
 INPUT C:\Users\tydav\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\tydav\gitLocals\ECE3110\exam-sheet-3\exam-sheet-3.tex
+INPUT exam-sheet-3.tex
 OUTPUT exam-sheet-3.log
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
