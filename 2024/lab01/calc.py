@@ -71,6 +71,7 @@ def calc_and_plot(V_F, I_F, V_th, V_S, R, prefix):
     print("V_D:", V_D)
     print("I_D:", I_D)
 
+    # Plotting
     fig = plt.figure()
     ax = plt.axes()
     fig.add_axes(ax)
