@@ -1,0 +1,29 @@
+\RequirePackage{circuitikz}
+\RequirePackage{siunitx}
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{hyperref}
+\RequirePackage[section]{placeins}
+
+\author{Ty Davis}
+
+\geometry{margin=1in}
+
+\newcommand{\twopics}[4]{
+\begin{figure}[!h]
+\begin{center}
+  \begin{minipage}{.45\textwidth}
+    \includegraphics[width=\textwidth]{#1}
+  \end{minipage}
+  \begin{minipage}{.45\textwidth}
+    \includegraphics[width=\textwidth]{#2}
+  \end{minipage}
+  \caption{#4}
+  \label{#3}
+\end{center}
+\end{figure}
+}
+
+\newcommand{\reporttitle}{
+  
+}
