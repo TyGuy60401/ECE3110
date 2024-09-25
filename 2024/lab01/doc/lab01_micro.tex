@@ -144,7 +144,7 @@ both $V_S = 10~\si{\V}$ and $V_S = 1.2~\si{\V}$, and the results
 are shown along with the results from the other models in Table~\ref{tab:calculations}.
 
 
-\begin{figure}[h!]
+\begin{table}[h!]
   % \ra{1.3}
   \centering
   \begin{tabular}{rrrrcrrrcrrr}\toprule
@@ -160,16 +160,17 @@ are shown along with the results from the other models in Table~\ref{tab:calcula
   \end{tabular}
   \caption{Calculations for all three models of the circuit.}
   \label{tab:calculations}
-\end{figure}
+\end{table}
 
 
 \section{Graphical Analysis}
 
-We can achieve the same result from the exponential model if we 
-graph both the current through the resistor and the diode as a 
-function of voltage. Doing so shows an intersection on the graph
-showing the operating point of the circuit for a given $V_S$. 
-For $V_S = 10~\si{\V}$ we may examine Fig.~\ref{fig:10V}.
+We can achieve the same result from the exponential
+model if we graph both the current through the resistor
+and the diode as a function of voltage. Doing so shows
+an intersection on the graph showing the operating point
+of the circuit for a given $V_S$. For $V_S = 10~\si{\V}$
+we may examine Fig.~\ref{fig:10V}.
 
 
 \begin{figure}[h!]
@@ -188,16 +189,16 @@ Similarly, the same was done for a voltage of 1.2~V, as seen in Fig.~\ref{fig:1.
   \label{fig:1.2V}
 \end{figure}
 
-
 \section{Results}
 
-Table~\ref{tab:results} contains the results from the circuit.
-Notice that the voltages across the diode are higher when the 
-supplied voltage is higher. Also, we found that at 0.75~V the current
-through the circuit was sufficiently low that we could consider
+Table~\ref{tab:results} contains the results from the
+circuit. Notice that the voltages across the diode are
+higher when the supplied voltage is higher. Also, we
+found that at $V_S=0.75~\si{\V}$ the current through
+the circuit was sufficiently low that we could consider
 the diode as shut off.
 
-\begin{figure}[h!]
+\begin{table}[h!]
   \centering
   \begin{tabular}{lrrrr}\toprule
     Voltage & $V_S$      & $V_D$    & $V_R$    & $I$ \\ \midrule
@@ -208,11 +209,54 @@ the diode as shut off.
   \end{tabular}
   \caption{Results from measuring the circuit.}
   \label{tab:results}
-\end{figure}
+\end{table}
 
 \section{Conclusion}
 
+As you can see, the voltages that were calculated for
+the diode were a bit higher than what we measured when
+we built the circuit. Tolerances for these semiconductor
+devices are usually around 20\%, which falls within
+the error we found. For $V_D$ @ 10~\si{\V}, the error
+is calculated at $\frac{0.8085 - 0.6856}{0.6856}=17.93\%$,
+and the other error values were consistently $\sim$16
+-- 18\%.
+
+It is also notable that the voltage over the diode did
+slightly increase as the supplied voltage in both the
+expontential model and the recorded results. The exponential
+model was the best at approximating the behavior of
+the circuit, but the constant drop model ended up getting
+closer to the real value of $V_D$.
+
 \section{Extra Thoughts}
+
+During the lab we spent some time considering whether
+the characteristic point revealed in the datasheet was
+accurate to our hardware. We decided to measure our
+own characteristic point by setting a specific voltage
+and measuring the current through it. We found that
+at a voltage of 0.600~\si{\V} the current was 1.42~\si{\mA}.
+These values were used to calculate a new $I_S$, which
+was $I_S= \SI{1.246e-13}~\si{\A}$.
+
+We solved the circuit once again graphically using the new
+characteristic point and the results matched much more closely
+with our results from Table~\ref{tab:results}, as shown in Fig.~\ref{fig:measured_10V}~and~\ref{fig:measured_1.2V}.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7 \textwidth]{../plots/pdf/measured_diode_10V.pdf}
+  \caption{Calculated $I$ and $V_D$ at 10~V with the new characteristic point.}
+  \label{fig:measured_10V}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7 \textwidth]{../plots/pdf/measured_diode_1.2V.pdf}
+  \caption{Calculated $I$ and $V_D$ at 1.2~V with the new characteristic point.}
+  \label{fig:measured_1.2V}
+\end{figure}
 
 
 \end{document}
