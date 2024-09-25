@@ -1,0 +1,21 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{circuitikz}[american] \draw
+  (0,3) to[voltage source, l_=$V$] (0,0);
+  \draw
+  (0, 3)
+    to[R, l_= 1~\si{\kohm}] (3,3)
+    -- (3,0)
+    (3,0) -- (0,0)
+  (0,0) node[ground]{}
+    (3,3) to[short, *-o] (4,3) 
+    (3,0) to[short, *-o] (4,0) 
+    (4,3) to[open, v=$V_D$] (4,0)
+    ;
+\end{circuitikz}
+
+\end{document}

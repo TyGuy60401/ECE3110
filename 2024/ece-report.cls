@@ -8,8 +8,11 @@
 % Modified:  Eric Gibbons, Weber State University Department of Electrical
 % and Computer Engineering.  
 
+% Modified again: Ty Davis, Webet State University Department of Electrical
+% and Computer Engineering STUDENT.
+
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{texMemo-gibbons}[2010/07/31 - Simple Memo Class, Including Logo]
+\ProvidesClass{report}[2010/07/31 - Simple Memo Class, Including Logo]
 %\RequirePackage{palatino}
 
 % Load the Base Class
@@ -27,14 +30,12 @@
 \def\@memocourse{\relax}
 \newcommand{\memocourse}[1]{\gdef\@memocourse{#1}}
 
-\def\@memosubject{\relax}
-\newcommand{\memosubject}[1]{\gdef\@memosubject{#1}}
+\def\@memotitle{\relax}
+\newcommand{\memotitle}[1]{\gdef\@memotitle{#1}}
 
 \def\@memodate{\relax}
 \newcommand{\memodate}[1]{\gdef\@memodate{#1}}
 
-\def\@memologo{\relax}
-\newcommand{\logo}[1]{\gdef\@memologo{\protect #1}}
 
 \def\@letterheadaddress{\relax}
 \newcommand{\lhaddress}[1]{\gdef\@letterheadaddress{#1}}
@@ -50,29 +51,23 @@
 \geometry{top=1.0in,left=0.75in,right=0.75in,bottom=0.75in}
 \RequirePackage[parfill]{parskip} % no indent on paragraphs
 
+% Useful imports for all of the lab reports
+\RequirePackage{graphicx}
+\RequirePackage{siunitx}
+\RequirePackage{hyperref}
+\RequirePackage[section]{placeins}
+
 
 % Create the Letterhead and To/From Block
 
 \renewcommand{\maketitle}{\makememotitle}
 \newcommand\makememotitle{
-	\ifthenelse{\equal{\@memologo}{\relax}}{}
-	{ % Create With Logo
-	\begin{minipage}[t]{1\columnwidth}%
-		\begin{flushright}
-			\vspace{-0.6in}
-			\@memologo%
-%			\vspace{-1.0in}
-		\par\end{flushright}%
-            \end{minipage}
-            \vspace{-0.7in}
-	}
-	
 	% To, From, Subject Block
 	\begin{description}[itemsep=-0.7mm]
-		\ifthenelse{\equal{\@memostudent}{\relax}}{}{\item [{Student:}] \@memostudent}
-		\ifthenelse{\equal{\@memocourse}{\relax}}{}{\item [{Course:}] \@memocourse}
-		\ifthenelse{\equal{\@memosubject}{\relax}}{}{\item [{Subject:}] \@memosubject}
-		\ifthenelse{\equal{\@memodate}{\relax}}{}{\item [{Date:}] \@memodate}
+		\ifthenelse{\equal{\@memotitle}{\relax}}{}{\item [{}] {\large\textbf\@memotitle}}
+		\ifthenelse{\equal{\@memostudent}{\relax}}{}{\item \@memostudent}
+		\ifthenelse{\equal{\@memocourse}{\relax}}{}{\item [\relax] \@memocourse}
+		\ifthenelse{\equal{\@memodate}{\relax}}{}{\item \@memodate}
 	\end{description}
 	\decorativeline\bigskip{}
 }
