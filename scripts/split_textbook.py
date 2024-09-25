@@ -3,6 +3,8 @@ import os
 
 FILE_PATH = "C:/Users/tydav/OneDrive - weber.edu/Documents/Random School Stuff/23-24 Schoolyear/Fall2023/ECE 3110/Microelectronic Circuits (6th edition) by Sedra and Smith LICA2.pdf"
 OUTPUT_PATH = "./pdf_sections/"
+
+
 def main():
     doc = fitz.open(FILE_PATH)
     toc_lvl2 = [x for x in doc.get_toc() if x[0] <= 2]
@@ -20,7 +22,7 @@ def main():
             page1 = toc_lvl2[i][2]
             page2 = doc.page_count
         new_doc.insert_pdf(doc, page1 - 1, page2 - 2)
-        
+
         title = toc_lvl2[i][1].translate(mapping)
         print(title)
         output_filename = os.path.join(OUTPUT_PATH, title + '.pdf')
