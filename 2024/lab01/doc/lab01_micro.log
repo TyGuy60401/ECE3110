@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.9)  24 SEP 2024 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.9)  24 SEP 2024 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,24 +446,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../circuits/
 circuit1.pdf> <../circuits/circuit_ideal.pdf>]
-
-lab01_micro.tex:70: LaTeX Error: Unknown float option `~'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \begin{figure}[h~]
-                       
-Option `~' ignored and `p' used.
-
 <../circuits/circuit_constant.pdf, id=97, 150.35573pt x 108.06674pt>
 File: ../circuits/circuit_constant.pdf Graphic file (type pdf)
 <use ../circuits/circuit_constant.pdf>
 Package pdftex.def Info: ../circuits/circuit_constant.pdf  used on input line 7
 2.
 (pdftex.def)             Requested size: 150.35535pt x 108.06647pt.
-[2 <../circuits/circuit_constant.pdf>] [3] (lab01_micro.aux)
+ [2 <../circuits/circuit_constant.pdf>]
+<../plots/pdf/datasheet_diode_10V.pdf, id=133, 462.52798pt x 346.89601pt>
+File: ../plots/pdf/datasheet_diode_10V.pdf Graphic file (type pdf)
+<use ../plots/pdf/datasheet_diode_10V.pdf>
+Package pdftex.def Info: ../plots/pdf/datasheet_diode_10V.pdf  used on input li
+ne 177.
+(pdftex.def)             Requested size: 354.12144pt x 265.60219pt.
+<../plots/pdf/datasheet_diode_1.2V.pdf, id=135, 462.52798pt x 346.89601pt>
+File: ../plots/pdf/datasheet_diode_1.2V.pdf Graphic file (type pdf)
+<use ../plots/pdf/datasheet_diode_1.2V.pdf>
+Package pdftex.def Info: ../plots/pdf/datasheet_diode_1.2V.pdf  used on input l
+ine 186.
+(pdftex.def)             Requested size: 354.12144pt x 265.60219pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <../plots/pdf/datasheet_diode_10V.pdf>] [4 <../plots/pdf/datasheet_diode_1.2
+V.pdf>] (lab01_micro.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -472,28 +479,29 @@ Package rerunfilecheck Info: File `lab01_micro.out' has not changed.
 (rerunfilecheck)             Checksum: C1B43BBAB9B44D20E9F626BF68F166E5;984.
  ) 
 Here is how much of TeX's memory you used:
- 13337 strings out of 475248
- 271018 string characters out of 5757814
- 1929801 words of memory out of 5000000
- 34717 multiletter control sequences out of 15000+600000
+ 13358 strings out of 475248
+ 271735 string characters out of 5757814
+ 1930801 words of memory out of 5000000
+ 34734 multiletter control sequences out of 15000+600000
  559933 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,9n,94p,507b,885s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,9n,94p,507b,889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C
-:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-10.pfb>
-Output written on lab01_micro.pdf (3 pages, 152499 bytes).
+cmbx10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/tydav/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on lab01_micro.pdf (4 pages, 207696 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

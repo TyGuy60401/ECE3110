@@ -56,6 +56,7 @@
 \RequirePackage{siunitx}
 \RequirePackage{hyperref}
 \RequirePackage[section]{placeins}
+\RequirePackage{booktabs}
 
 
 % Create the Letterhead and To/From Block

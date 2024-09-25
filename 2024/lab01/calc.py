@@ -84,8 +84,8 @@ def calc_and_plot(V_F, I_F, V_th, V_S, R, prefix):
     y_top = V_S / R * 1.1
     ax.set_ylim([y_bottom, y_top]) # type:ignore
 
-    ax.plot(v_vals, i_r_vals, 'xkcd:silver', label=r'$i_D = I_s e^{v / v_{th}}$')
-    ax.plot(v_vals, i_d_vals, '#492365', label=r'$i_D = \frac{V_S - v}{R}$')
+    ax.plot(v_vals, i_r_vals, 'xkcd:silver', label=r'$I_R = I_s e^{v / v_{th}}$')
+    ax.plot(v_vals, i_d_vals, '#492365', label=r'$I_D = \frac{V_S - v}{R}$')
     ax.plot(v_vals[idx], i_d_vals[idx], marker='o', color='#492365', linestyle='', label=f'Solution')
     y_diff = (y_top - y_bottom) / 30
     x_offset = 0.05
