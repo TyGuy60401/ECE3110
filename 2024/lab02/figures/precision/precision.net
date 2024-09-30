@@ -1,0 +1,13 @@
+* C:\Users\tydav\gitLocals\ECE3110\2024\lab02\figures\precision\precision.asc
+V1 N002 0 SINE(0 5 1k)
+XU1 N002 N003 N001 N005 N004 LM741/NS
+D1 N004 N003 D1N4001
+R1 N003 0 10k
+V2 N001 0 15
+V3 N005 0 -15
+.model D D
+.lib C:\Users\tydav\OneDrive - weber.edu\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 4m
+.include C:\Users\tydav\gitLocals\ECE3110\2024\lab02\figures\lib\LM741.MOD
+.backanno
+.end
