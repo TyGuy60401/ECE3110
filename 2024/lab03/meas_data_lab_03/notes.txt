@@ -1,0 +1,16 @@
+circuit a
+  xy plot measured and sim
+  v/t plot
+  managed to get +-1.4 V
+
+circuit b
+  xy
+  v/t
+
+circuit c
+  v/t plot (square)
+  negative clamp
+  max/min sim and meas
+
+circuit d
+  v/t plot
