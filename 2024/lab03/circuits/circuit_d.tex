@@ -1,0 +1,25 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{circuitikz}[american]
+\draw (0,0) to[sV, v^<=$V$] (0,3)
+  to[resistor, l=1\si{\kohm}] (2.5,3) 
+  to[full diode, l_=1N4001, *-*] (2.5,0)
+  -- (0,0)
+(0, 0) node[ground]{}
+;
+\draw (2.5,0) -- (5,0)
+  to[capacitor, l=1.5~\si{\uF}] (5,3)
+  to[full diode, l_=1N4001] (2.5,3)
+;
+\draw
+(5,3) to[short, *-o] (6,3)
+(5,0) to[short, *-o] (6,0)
+(6,3) to[open, v=$V_o$] (6,0)
+;
+\end{circuitikz}
+
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{circuitikz}[american]
+\draw (0,0) to[sV, v^<=$V$] (0,3)
+  to[resistor, l=1\si{\kohm}] (3,3) 
+  to[full ZZener diode, l_=1N4733A, *-] (3,1.5);
+\draw (3,0) to[full ZZener diode, l=1N4733A, *-] (3,1.5)
+\draw (3,0) -- (0,0)
+(0, 0) node[ground]{}
+;
+\draw
+(3,3) to[short, -o] (5,3)
+(3,0) to[short, -o] (5,0)
+(5,3) to[open, v=$V_o$] (5,0)
+;
+\end{circuitikz}
+
+\end{document}
