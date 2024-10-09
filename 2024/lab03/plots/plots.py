@@ -157,6 +157,7 @@ def circuit_c():
     ax.plot(meas[t_axis], meas[vin_axis['name']], label='Input')
     ax.plot(meas[t_axis], meas[vout_axis['name']] + diff.mean() * 2, label='Output')
     set_labels(ax)
+    ax.legend()
     save_file('./circuit_c/c_meas_-0_7')
 
 

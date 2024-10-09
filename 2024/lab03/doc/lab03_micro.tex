@@ -54,38 +54,111 @@ and will produce unique outputs.
     \caption{Voltage Doubler Circuit}
     \label{fig:circuit_d}
   \end{subfigure}
-  \caption{Circuits that are used in this lab.}
+  \caption{Circuits That are Used in This Lab}
   \label{fig:ciruits}
 \end{figure}
 
-\section{Limiter Circuit}
+\section{Limiter Circuits}
+
+Limiter circuits are used to limit the output of an
+input wave. They often appear linear until some certain
+voltage threshold where they cut off and almost stop
+increasing entirely.
+
+The limiter circuit shown in Fig.~\ref{fig:circuit_a}
+is a circuit that uses the voltage drop over a single
+1N4001 diode to limit the output voltage of the circuit.
+Because the voltage increase is extremely low for any
+extreme increase in current, the voltage over the diode
+peaks at around 0.6~\si{\V}. The function works by acting
+linear, essentially just a voltage passing through a
+resistor, when neither of the diodes are turned on.
+Though, when one of the diodes becomes forward biased,
+it acts as a short circuit and only the voltage drop
+across the diode is seen at the output.
+
+By placing two diodes in parallel and facing opposite
+directions, the circuit doesn't limit only when the
+voltage is positive (or negative). Rather, the circuit
+is able to allow current to pass through the diodes
+in either case, and the voltage is seen on the output
+whether the input voltage is positive or negative.
+
+In Fig.~\ref{fig:limiter_results} you can see the voltage
+of the output graphed with respect to the input in both
+the simulation and the experiment. Clearly, the behavior
+was modeled well and the circuit behaves as expected.
+
 
 \begin{figure}[h!]
   \centering
-  \twosubfigures{../plots/circuit_a/pdf/a_sim_xy.pdf}{Simulated}{fig:simulated}
-                {../plots/circuit_a/pdf/a_meas_xy.pdf}{Measured}{fig:measured}
+  \twosubfigures{../plots/circuit_a/pdf/a_sim_xy.pdf}{Simulated}{fig:a_simulated}
+                {../plots/circuit_a/pdf/a_meas_xy.pdf}{Measured}{fig:a_measured}
   \caption{Limiter Circuit Simulation and Measurements}
   \label{fig:limiter_results}
 \end{figure}
 
-\section{Zener Diode Limiter Circuit}
+Similar to the normal diode limiter circuit, Zener diodes
+(see Fig.~\ref{fig:circuit_b}) can be utilized to specify
+the target voltage that the input will be limited to.
+The Zener diodes that we chose (1N4733A) become forward
+biased at around 5~\si{\V}, and as such the output voltage
+is limited to that value. See Fig.~\ref{fig:zener_limiter_results}
+to compare the simulated vs measured results of the
+Zener diode limiter.
 
 \begin{figure}[h!]
   \centering
-  \twosubfigures{../plots/circuit_b/pdf/b_sim_xy.pdf}{Simulated}{fig:simulated}
-                {../plots/circuit_b/pdf/b_meas_xy.pdf}{Measured}{fig:measured}
-  \caption{Limiter Circuit Simulation and Measurements}
+  \twosubfigures{../plots/circuit_b/pdf/b_sim_xy.pdf}{Simulated}{fig:b_simulated}
+                {../plots/circuit_b/pdf/b_meas_xy.pdf}{Measured}{fig:b_measured}
+  \caption{Zener Diode Limiter Circuit Simulation and Measurements}
   \label{fig:zener_limiter_results}
 \end{figure}
 
 \section{Clamping Circuit}
 
+A clamper circuit is used to translate some input voltage
+to either a completely positive voltage or a completely
+negative voltage. The circuit works by charging the
+capacitor when the input voltage is negative and the
+diode is forward biased, and when the input voltage
+is positive the diode is reverse biased and as such
+doesn't allow current to flow, so the output is just
+the input voltage plus whatever the capacitor was charged
+to while the input was negative. 
+
+Assuming an ideal diode, the output voltage of the circuit
+would be exactly equal to the input voltage shifted
+until it all becomes positive. Of course, because of
+the non-zero voltage drop over the resistor, this isn't
+exactly the case, but the circuit still reaches a nearly
+all-positive state, within the voltage drop of the diode.
+
+In the simulation, as shown in Fig.~\ref{fig:c_simulated},
+we can see that the output voltage is higher than in
+the experimental measurement. This is because we did
+not wait in the simulation for long enough so that the
+circuit could find a consistent state. The capacitor
+was still charged more than it would be several iterations
+past this point. Given enough time that the simulated
+circuit could reach some form of equilibrium, it is
+anticipated that it would appear very similar to the
+measured results, which were captured after the circuit
+had ample time to settle.
+
 \begin{figure}[h!]
   \centering
-  \twosubfigures{../plots/circuit_c/pdf/c_sim_trans.pdf}{Simulated}{fig:simulated}
-                {../plots/circuit_c/pdf/c_meas_trans.pdf}{Measured}{fig:measured}
+  \twosubfigures{../plots/circuit_c/pdf/c_sim_trans.pdf}{Simulated}{fig:c_simulated}
+                {../plots/circuit_c/pdf/c_meas_trans.pdf}{Measured}{fig:c_measured}
   \caption{Limiter Circuit Simulation and Measurements}
   \label{fig:clamped_results}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../plots/circuit_c/pdf/c_meas_-0_7.pdf}
+  \caption{Negative clamping circuit measurement}
+  \label{fig:negative_clamped_results}
 \end{figure}
 
 
@@ -93,8 +166,8 @@ and will produce unique outputs.
 
 \begin{figure}[h!]
   \centering
-  \twosubfigures{../plots/circuit_d/pdf/d_sim_trans.pdf }{Simulated}{fig:simulated}
-                {../plots/circuit_d/pdf/d_meas_trans.pdf}{Measured}{fig:measured}
+  \twosubfigures{../plots/circuit_d/pdf/d_sim_trans.pdf }{Simulated}{fig:d_simulated}
+                {../plots/circuit_d/pdf/d_meas_trans.pdf}{Measured}{fig:d_measured}
   \caption{Limiter Circuit Simulation and Measurements}
   \label{fig:doubler_results}
 \end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  8 OCT 2024 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  8 OCT 2024 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -349,44 +349,7 @@ tex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box62
-) (lab03_micro.aux
-
-LaTeX Warning: Label `fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `fig:measured' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:measured' multiply defined.
-
-
-LaTeX Warning: Label `fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `fig:measured' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:measured' multiply defined.
-
-
-LaTeX Warning: Label `fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:simulated' multiply defined.
-
-
-LaTeX Warning: Label `fig:measured' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:measured' multiply defined.
-
-)
+) (lab03_micro.aux)
 \openout1 = `lab03_micro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -494,106 +457,109 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 25--25
 [] 
  []
 
-<../circuits/circuit_a.pdf, id=28, 208.27612pt x 121.50795pt>
+<../circuits/circuit_a.pdf, id=24, 208.27612pt x 121.50795pt>
 File: ../circuits/circuit_a.pdf Graphic file (type pdf)
 <use ../circuits/circuit_a.pdf>
 Package pdftex.def Info: ../circuits/circuit_a.pdf  used on input line 38.
 (pdftex.def)             Requested size: 227.64894pt x 132.81555pt.
-<../circuits/circuit_b.pdf, id=29, 179.8238pt x 121.50795pt>
+<../circuits/circuit_b.pdf, id=25, 179.8238pt x 121.50795pt>
 File: ../circuits/circuit_b.pdf Graphic file (type pdf)
 <use ../circuits/circuit_b.pdf>
 Package pdftex.def Info: ../circuits/circuit_b.pdf  used on input line 43.
 (pdftex.def)             Requested size: 227.64894pt x 153.83131pt.
-<../circuits/circuit_c.pdf, id=30, 208.27612pt x 128.0805pt>
+<../circuits/circuit_c.pdf, id=26, 208.27612pt x 128.0805pt>
 File: ../circuits/circuit_c.pdf Graphic file (type pdf)
 <use ../circuits/circuit_c.pdf>
 Package pdftex.def Info: ../circuits/circuit_c.pdf  used on input line 48.
 (pdftex.def)             Requested size: 227.64894pt x 139.99976pt.
-<../circuits/circuit_d.pdf, id=31, 208.27612pt x 125.88931pt>
+<../circuits/circuit_d.pdf, id=27, 208.27612pt x 125.88931pt>
 File: ../circuits/circuit_d.pdf Graphic file (type pdf)
 <use ../circuits/circuit_d.pdf>
 Package pdftex.def Info: ../circuits/circuit_d.pdf  used on input line 53.
 (pdftex.def)             Requested size: 227.64894pt x 137.60463pt.
-<../plots/circuit_a/pdf/a_sim_xy.pdf, id=32, 462.52798pt x 346.89601pt>
-File: ../plots/circuit_a/pdf/a_sim_xy.pdf Graphic file (type pdf)
-<use ../plots/circuit_a/pdf/a_sim_xy.pdf>
-Package pdftex.def Info: ../plots/circuit_a/pdf/a_sim_xy.pdf  used on input lin
-e 66.
-(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/circuit_a/pdf/a_meas_xy.pdf, id=33, 462.52798pt x 346.89601pt>
-File: ../plots/circuit_a/pdf/a_meas_xy.pdf Graphic file (type pdf)
-<use ../plots/circuit_a/pdf/a_meas_xy.pdf>
-Package pdftex.def Info: ../plots/circuit_a/pdf/a_meas_xy.pdf  used on input li
-ne 66.
-(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 73.
 [1
 
 {C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../circuits/
 circuit_a.pdf> <../circuits/circuit_b.pdf> <../circuits/circuit_c.pdf> <../circ
 uits/circuit_d.pdf>]
+<../plots/circuit_a/pdf/a_sim_xy.pdf, id=125, 462.52798pt x 346.89601pt>
+File: ../plots/circuit_a/pdf/a_sim_xy.pdf Graphic file (type pdf)
+<use ../plots/circuit_a/pdf/a_sim_xy.pdf>
+Package pdftex.def Info: ../plots/circuit_a/pdf/a_sim_xy.pdf  used on input lin
+e 96.
+(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
+<../plots/circuit_a/pdf/a_meas_xy.pdf, id=126, 462.52798pt x 346.89601pt>
+File: ../plots/circuit_a/pdf/a_meas_xy.pdf Graphic file (type pdf)
+<use ../plots/circuit_a/pdf/a_meas_xy.pdf>
+Package pdftex.def Info: ../plots/circuit_a/pdf/a_meas_xy.pdf  used on input li
+ne 96.
+(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
 <../plots/circuit_b/pdf/b_sim_xy.pdf, id=129, 462.52798pt x 346.89601pt>
 File: ../plots/circuit_b/pdf/b_sim_xy.pdf Graphic file (type pdf)
 <use ../plots/circuit_b/pdf/b_sim_xy.pdf>
 Package pdftex.def Info: ../plots/circuit_b/pdf/b_sim_xy.pdf  used on input lin
-e 76.
+e 113.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
 <../plots/circuit_b/pdf/b_meas_xy.pdf, id=130, 462.52798pt x 346.89601pt>
 File: ../plots/circuit_b/pdf/b_meas_xy.pdf Graphic file (type pdf)
 <use ../plots/circuit_b/pdf/b_meas_xy.pdf>
 Package pdftex.def Info: ../plots/circuit_b/pdf/b_meas_xy.pdf  used on input li
-ne 76.
+ne 113.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/circuit_c/pdf/c_sim_trans.pdf, id=131, 462.52798pt x 346.89601pt>
+ [2 <../plots/circuit_a/pdf/a_sim_xy.pdf> <../plots/circuit_a/pdf/a_meas_xy.pdf
+> <../plots/circuit_b/pdf/b_sim_xy.pdf> <../plots/circuit_b/pdf/b_meas_xy.pdf>]
+<../plots/circuit_c/pdf/c_sim_trans.pdf, id=244, 462.52798pt x 346.89601pt>
 File: ../plots/circuit_c/pdf/c_sim_trans.pdf Graphic file (type pdf)
 <use ../plots/circuit_c/pdf/c_sim_trans.pdf>
 Package pdftex.def Info: ../plots/circuit_c/pdf/c_sim_trans.pdf  used on input 
-line 86.
+line 152.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/circuit_c/pdf/c_meas_trans.pdf, id=132, 462.52798pt x 346.89601pt>
+<../plots/circuit_c/pdf/c_meas_trans.pdf, id=245, 462.52798pt x 346.89601pt>
 File: ../plots/circuit_c/pdf/c_meas_trans.pdf Graphic file (type pdf)
 <use ../plots/circuit_c/pdf/c_meas_trans.pdf>
 Package pdftex.def Info: ../plots/circuit_c/pdf/c_meas_trans.pdf  used on input
- line 86.
+ line 152.
+(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
+<../plots/circuit_c/pdf/c_meas_-0_7.pdf, id=246, 462.52798pt x 346.89601pt>
+File: ../plots/circuit_c/pdf/c_meas_-0_7.pdf Graphic file (type pdf)
+<use ../plots/circuit_c/pdf/c_meas_-0_7.pdf>
+Package pdftex.def Info: ../plots/circuit_c/pdf/c_meas_-0_7.pdf  used on input 
+line 159.
+(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
+<../plots/circuit_d/pdf/d_sim_trans.pdf, id=247, 462.52798pt x 346.89601pt>
+File: ../plots/circuit_d/pdf/d_sim_trans.pdf Graphic file (type pdf)
+<use ../plots/circuit_d/pdf/d_sim_trans.pdf>
+Package pdftex.def Info: ../plots/circuit_d/pdf/d_sim_trans.pdf  used on input 
+line 170.
+(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
+<../plots/circuit_d/pdf/d_meas_trans.pdf, id=248, 462.52798pt x 346.89601pt>
+File: ../plots/circuit_d/pdf/d_meas_trans.pdf Graphic file (type pdf)
+<use ../plots/circuit_d/pdf/d_meas_trans.pdf>
+Package pdftex.def Info: ../plots/circuit_d/pdf/d_meas_trans.pdf  used on input
+ line 170.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <../plots/circuit_a/pdf/a_sim_xy.pdf> <../plots/circuit_a/pdf/a_meas_xy.pdf>
- <../plots/circuit_b/pdf/b_sim_xy.pdf> <../plots/circuit_b/pdf/b_meas_xy.pdf>]
-<../plots/circuit_d/pdf/d_sim_trans.pdf, id=245, 462.52798pt x 346.89601pt>
-File: ../plots/circuit_d/pdf/d_sim_trans.pdf Graphic file (type pdf)
-<use ../plots/circuit_d/pdf/d_sim_trans.pdf>
-Package pdftex.def Info: ../plots/circuit_d/pdf/d_sim_trans.pdf  used on input 
-line 97.
-(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/circuit_d/pdf/d_meas_trans.pdf, id=246, 462.52798pt x 346.89601pt>
-File: ../plots/circuit_d/pdf/d_meas_trans.pdf Graphic file (type pdf)
-<use ../plots/circuit_d/pdf/d_meas_trans.pdf>
-Package pdftex.def Info: ../plots/circuit_d/pdf/d_meas_trans.pdf  used on input
- line 97.
-(pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-
 [3 <../plots/circuit_c/pdf/c_sim_trans.pdf> <../plots/circuit_c/pdf/c_meas_tran
-s.pdf> <../plots/circuit_d/pdf/d_sim_trans.pdf> <../plots/circuit_d/pdf/d_meas_
-trans.pdf>] (lab03_micro.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+s.pdf> <../plots/circuit_c/pdf/c_meas_-0_7.pdf>] [4 <../plots/circuit_d/pdf/d_s
+im_trans.pdf> <../plots/circuit_d/pdf/d_meas_trans.pdf>] (lab03_micro.aux)
 Package rerunfilecheck Info: File `lab03_micro.out' has not changed.
-(rerunfilecheck)             Checksum: 11F6DCDB0BC5E1833905D8C19D481AEB;794.
+(rerunfilecheck)             Checksum: 0349F69B023667B7CE2B3A77C820CB9B;612.
  ) 
 Here is how much of TeX's memory you used:
- 14968 strings out of 476331
- 306940 string characters out of 5787766
- 1858660 words of memory out of 5000000
- 35237 multiletter control sequences out of 15000+600000
+ 14990 strings out of 476331
+ 307528 string characters out of 5787766
+ 1860660 words of memory out of 5000000
+ 35257 multiletter control sequences out of 15000+600000
  514104 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,8n,91p,507b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,8n,91p,507b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -602,9 +568,9 @@ ublic/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tydav/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tydav/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on lab03_micro.pdf (3 pages, 264320 bytes).
+Output written on lab03_micro.pdf (4 pages, 302444 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
