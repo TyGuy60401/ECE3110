@@ -1,0 +1,261 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\geometry{margin=0.25in}
+
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+\begin{multicols}{3}
+\raggedright
+
+$f = 1/T$
+
+$\omega = 2 \pi f$
+
+Voltage divider:\\
+$V_{r1} = v_{i} \frac{R1}{R1 + R2}$
+
+\hrule
+
+\textbf{Voltage and Current gain in decibels}: \\
+$A_\textnormal{v-dB} = 20 \log_{10} ( A_\textnormal{V/V} )$ \\
+$A_\textnormal{i-dB} = 20 \log_{10} ( A_\textnormal{A/A} )$
+
+\textbf{Power gain in decibels}: \\
+$A_\textnormal{p-dB} = 10 \log_{10} ( A_\textnormal{W/W} )$ \\
+
+The power gain in decibels is the average of the voltage 
+and amperage gain in decibels.
+
+\hrule
+
+\textbf{Amplifier Models}:\\
+$v_o = A_{v_o} v_i \frac{R_L}{R_L + R_o}$ \\
+$A_v = A_{v_o} \frac{R_L}{R_L + R_o}$
+
+Consider the voltage divider at the output for the load.
+There may also be one at the source getting into the
+input of the amplifier.
+
+\hrule
+
+\textbf{Amplifier Types}:\\
+\textbf{Voltage}: $A_{v_o} \equiv \frac{v_o}{v_i}$ \\
+Wants: $R_i \rightarrow \infty$ and $R_o \rightarrow 0$
+
+\textbf{Current}: $A_{i_s} \equiv \frac{i_o}{i_s}$ \\
+Wants: $R_i \rightarrow 0$ and $R_o \rightarrow \infty$
+
+\textbf{Transconductance}: $G_{m} \equiv \frac{i_o}{v_i}$ \\
+Wants: $R_i \rightarrow \infty$ and $R_o \rightarrow \infty$
+
+\textbf{Transresistance}: $R_{m} \equiv \frac{v_o}{i_s}$ \\
+Wants: $R_i \rightarrow 0$ and $R_o \rightarrow 0$
+
+\hrule
+
+\textbf{Frequency Response of Amplifier}
+
+STC (single time constant) networks:\\
+$\tau =~$L / R  or  $\tau =~$CR
+
+Low-pass filter with RC, voltage output is across the
+capacitor because it appears short at high frequencies.
+
+High-pass filter with RC, voltage output is across the resistor.
+
+This is opposite for inductors.
+
+\hrule
+
+\textbf{Semiconductors}
+
+Intrinsic means not doped. Group IV elements make good
+semiconductors because they have 4 valence electrons.
+At low temps, covalent bonds remain more intact and
+don't conduct electricity. Higher temps means more free
+electrons means more current.
+
+\textbf{Recombination}
+$n_i$ is number of free holes and electrons in a unit volume.
+
+$n_i = BT^{3/2} e^{-E_g / 2kT}$
+
+$B$ is material dependent parameter ($7.3 \times 10^{15} \si{\cm}^{-3}\si{\K}^{-3/2}$ for Si)
+
+$E_g$ is band gap energy, in Si it's 1.12 eV.
+
+$k$ is Boltzmann's Constant ($8.62 \times 10^{-5} \si{\eV}/\si{\K}$)
+
+\hrule 
+
+\textbf{Doped semiconductors}\\ 
+\textbf{N-type}: Dope the semiconductor with a Group V element.
+Those have an extra electron, so now there are extra
+free electrons making it N-type.
+
+If $N_D \gg n_i$ then $n_n \approx N_D$ \\
+$n_n p_n = n_i^2$ \\
+$p_n = \frac{n_i^2}{N_D}$
+
+\textbf{P-type}: Dope the semiconductor with a Group III element,
+more holes.
+
+
+If $N_D \gg n_i$ then $n_n \approx N_D$ \\
+$p_p n_p = n_i^2$ \\
+$n_p = \frac{n_i^2}{N_A}$
+
+\hrule
+
+\textbf{Drift Current} \\
+Hole velocity $v_{p-drift}=\mu_p E \frac{cm}{s}$\\
+$\mu_p = 480 \frac{cm^2}{s}$
+
+Electron velocity $v_{n-drift}=- \mu_n E \frac{cm}{s}$\\
+$\mu_n = 1350 \frac{cm^2}{s}$
+
+Hole current:
+$I_p = Aqpv_{p-drift}$\\
+$I_p = Aqp\mu_p E$\\
+$J_p = \frac{I_p}{A} = qp\mu_p E$
+
+$p$ is hole concentration
+
+Electron current:
+$I_n = -Aqnv_{n-drift}$\\
+$I_n = -Aqn\mu_n E$\\
+$J_n = \frac{I_n}{A} = qp\mu_n E$
+
+$n$ is electron concentration
+$q$ is magnitude of charge: $1.609 \times 10^{-19}$
+
+\textbf{Drift current density}: \\
+$J = J_p + J_n$
+
+\hrule
+
+\textbf{Diffusion Current}:
+$J_p = -q D_p \frac{dp(x)}{dx} \frac{A}{cm^2}$\\
+$J_n = q D_n \frac{dn(x)}{dx} \frac{A}{cm^2}$\\
+
+$\frac{D_n}{\mu_n} = \frac{D_p}{\mu_p} = V_T$
+
+$V_T$ is the thermal voltage.
+$V_T = 25.9 \si{\mV}$
+
+\hrule
+
+\textbf{Junction Built-in Voltage}:\\
+$V_0 = V_T \ln \Big( \frac{N_A N_D}{n_i^2} \Big)$
+
+Usually, $V_0$ is between 0.6 and 0.9 V.
+
+\textbf{Magnitude of Charge}:\\
+$|Q_+| = qAx_n N_D$\\
+$|Q_-| = qAx_p N_A$
+
+$A$ is cross sectional area.
+
+\hrule
+
+\textbf{Width of depletion layer}:
+$W = x_n + x_p = \sqrt{\frac{2 \varepsilon_s}{q} \Big(\frac{1}{N_A} + \frac{1}{N_D} \Big) V_0}$
+
+$x_n = W \frac{N_A}{N_A + N_D} $ \\
+$x_p = W \frac{N_D}{N_A + N_D} $
+
+$Q_J = A \sqrt{ 2 \varepsilon_s q \Big( \frac{N_A N_D}{N_A + N_D} \Big) V_0}$
+
+\textbf{With reverse voltage $V_R$}:
+$Q_J = A \sqrt{ 2 \varepsilon_s q \Big( \frac{N_A N_D}{N_A + N_D} \Big) (V_0 + V_R)}$
+
+Capacitance can be found by:
+
+$C_j = \frac{dQ_J}{dV_R} \Big|_{V_R = V_Q}$\\
+$C_j = \frac{\alpha}{2\sqrt{V_0 + V_R}}$ \\
+Where $\alpha$ is shown by \\
+$\alpha = A \sqrt{2 \varepsilon_s q \frac{N_A N_D}{N_A + N_D}}$
+
+
+\hrule 
+
+\textbf{Diffusion Capacitance}:\\
+$Q_p = Aq [p_n(x_n) - p_{n0}] L_p$\\
+$Q_p = \frac{L_p^2}{D_p} I_p$
+
+$\tau_p = \frac{L_p^2}{D_p}$
+
+$Q = \tau_T I$\\
+$C_d = \frac{dQ}{dV}$
+
+$C_d = \frac{\tau_T}{V_T} I$
+
+Where $I$ is the forward bias current, it is really
+small when the diode is reverse biased.
+
+\hrule
+
+\textbf{Depletion Capacitance}:\\
+
+$C_{j0} = A \sqrt{\Big( \frac{\varepsilon_s q}{2} \Big) \Big( \frac{N_A N_D}{N_A + N_D} \Big) \frac{1}{V_0}} $
+$C_j = \frac{C_{j0}}{\Big( 1 + \frac{V_R}{V_0} \Big) ^ m}$
+
+$m$ is between 1/3 and 1/2
+
+
+\hrule
+
+\textbf{Saturation Current}:\\
+
+$I_s = Aq n_i^2 \Big( \frac{D_p}{L_p N_D} + \frac{D_n}{L_n N_A} \Big)$
+
+$I = I_s \big( e^{V/V_T} - 1\big)$
+
+\textbf{Forward Current}:\\
+
+$I = I_p + I_n$
+
+$I_p = A q n_i^2 \frac{D_p}{L_p N_D} (e ^ {V/V_T} - 1)$
+
+$I_n = A q n_i^2 \frac{D_n}{L_n N_A} (e ^ {V/V_T} - 1)$
+
+\textbf{Diodes}:\\
+
+$V_T = \frac{kT}{q} = 25.9 \si{\mV}$
+
+\textbf{Iterative Solution}: \\
+Guess $V_1$ and $I_1$
+
+$I_{2} = \frac{V_{DD} - V_1}{R}$
+
+$V_2 = V_1 + V_T \ln \Big( \frac{I_2}{I_1} \Big)$
+
+Now use $V_2$ and $I_2$ as the new inputs for another iteration.
+
+Constant drop: $V_D = 0.7~\si{\V}$.
+
+\textbf{Small Signal}:
+
+$r_d = \frac{V_T}{I_D}$
+
+\textbf{Zener Regions}:
+
+$V_Z = V_{Z0} + r_z I_Z$
+
+\textbf{Rectifiers}:
+
+Ripple voltage:
+
+$V_r = \frac{V_p}{fCR} = \frac{I_L}{fC}$
+
+
+
+
+\end{multicols}
+\end{document}
