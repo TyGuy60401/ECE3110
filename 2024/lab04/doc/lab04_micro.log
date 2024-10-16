@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  16 OCT 2024 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.5)  16 OCT 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,37 +862,54 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 28--28
 [] 
  []
 
-<circuits/circuit.pdf, id=18, 196.35658pt x 101.89166pt>
+<circuits/circuit.pdf, id=19, 196.35658pt x 101.89166pt>
 File: circuits/circuit.pdf Graphic file (type pdf)
 <use circuits/circuit.pdf>
-Package pdftex.def Info: circuits/circuit.pdf  used on input line 37.
+Package pdftex.def Info: circuits/circuit.pdf  used on input line 38.
 (pdftex.def)             Requested size: 196.3561pt x 101.8914pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
-<../plots/pdf/sim_sweep_vgs.pdf, id=19, 462.52798pt x 346.89601pt>
+(Font)              <5> on input line 44.
+<../plots/pdf/sim_sweep_vgs.pdf, id=24, 462.52798pt x 346.89601pt>
 File: ../plots/pdf/sim_sweep_vgs.pdf Graphic file (type pdf)
 <use ../plots/pdf/sim_sweep_vgs.pdf>
-Package pdftex.def Info: ../plots/pdf/sim_sweep_vgs.pdf  used on input line 70.
+Package pdftex.def Info: ../plots/pdf/sim_sweep_vgs.pdf  used on input line 86.
 
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/pdf/sweep_vgs.pdf, id=20, 462.52798pt x 346.89601pt>
+<../plots/pdf/sweep_vgs.pdf, id=25, 462.52798pt x 346.89601pt>
 File: ../plots/pdf/sweep_vgs.pdf Graphic file (type pdf)
 <use ../plots/pdf/sweep_vgs.pdf>
-Package pdftex.def Info: ../plots/pdf/sweep_vgs.pdf  used on input line 70.
+Package pdftex.def Info: ../plots/pdf/sweep_vgs.pdf  used on input line 86.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/pdf/sim_sweep_vds.pdf, id=21, 462.52798pt x 346.89601pt>
+<../plots/pdf/sim_sweep_vds.pdf, id=26, 462.52798pt x 346.89601pt>
 File: ../plots/pdf/sim_sweep_vds.pdf Graphic file (type pdf)
 <use ../plots/pdf/sim_sweep_vds.pdf>
-Package pdftex.def Info: ../plots/pdf/sim_sweep_vds.pdf  used on input line 78.
+Package pdftex.def Info: ../plots/pdf/sim_sweep_vds.pdf  used on input line 94.
 
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
-<../plots/pdf/sweep_vds.pdf, id=22, 462.52798pt x 346.89601pt>
+<../plots/pdf/sweep_vds.pdf, id=27, 462.52798pt x 346.89601pt>
 File: ../plots/pdf/sweep_vds.pdf Graphic file (type pdf)
 <use ../plots/pdf/sweep_vds.pdf>
-Package pdftex.def Info: ../plots/pdf/sweep_vds.pdf  used on input line 78.
+Package pdftex.def Info: ../plots/pdf/sweep_vds.pdf  used on input line 94.
 (pdftex.def)             Requested size: 227.64894pt x 170.73746pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+lab04_micro.tex:136: Undefined control sequence.
+<recently read> \lamba 
+                       
+l.136 The $\lambda$ value is accordingly: $\lamba
+                                                 =-0.00024~1/\si{\V}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 [1
 
 {C:/Users/tydav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./circuits/c
@@ -900,29 +917,32 @@ ircuit.pdf>] [2 <../plots/pdf/sim_sweep_vgs.pdf> <../plots/pdf/sweep_vgs.pdf> <
 ../plots/pdf/sim_sweep_vds.pdf> <../plots/pdf/sweep_vds.pdf>] [3]
 (lab04_micro.aux)
 Package rerunfilecheck Info: File `lab04_micro.out' has not changed.
-(rerunfilecheck)             Checksum: 3B3D5FA70C7C49E3D73507E2D1386397;274.
+(rerunfilecheck)             Checksum: 33151144FF9B5EF36B74AAE9AF7DC631;335.
  ) 
 Here is how much of TeX's memory you used:
- 41841 strings out of 476331
- 1031256 string characters out of 5787766
- 1861660 words of memory out of 5000000
- 61850 multiletter control sequences out of 15000+600000
- 514104 words of font info for 38 fonts, out of 8000000 for 9000
+ 41850 strings out of 476331
+ 1031378 string characters out of 5787766
+ 1868660 words of memory out of 5000000
+ 61856 multiletter control sequences out of 15000+600000
+ 514450 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,103p,507b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,103p,507b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tydav/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/t
-ydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab04_micro.pdf (3 pages, 180754 bytes).
+cmbx10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tydav/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tydav/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tydav/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tydav/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/t
+ydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on lab04_micro.pdf (3 pages, 195987 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

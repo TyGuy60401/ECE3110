@@ -898,6 +898,7 @@ INPUT circuits\circuit.pdf
 INPUT .\circuits\circuit.pdf
 INPUT .\circuits\circuit.pdf
 INPUT .\circuits\circuit.pdf
+INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT ..\plots\pdf\sim_sweep_vgs.pdf
 INPUT ..\plots\pdf\sim_sweep_vgs.pdf
 INPUT ..\plots\pdf\sim_sweep_vgs.pdf
@@ -927,6 +928,8 @@ INPUT C:\Users\tydav\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT lab04_micro.aux
 INPUT .\lab04_micro.out
 INPUT .\lab04_micro.out
+INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
@@ -945,3 +948,5 @@ INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\tydav\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
