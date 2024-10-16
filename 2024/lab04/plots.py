@@ -90,6 +90,19 @@ def sim_sweep_vds():
     for file_no in file_numbers:
         data = pd.read_csv(f"./sim/sweep_vds_{file_no}.csv")
         ax.plot(data[data.columns[0]], data[data.columns[1]], label=r'V$_{GS}$ = ' f'{file_no} V')
+        threshold = data[data.columns[1]].max() / 200
+        data['next_value'] = data[data.columns[1]].shift(-1)
+        data['difference'] = abs(data[data.columns[1]] - data['next_value'])
+        close_values = data[data['difference'] < threshold]
+        x_point = close_values[close_values.columns[0]].iloc[0]
+        y_max = close_values[close_values.columns[1]].iloc[0]
+        
+        v_ov = r'V$_{OV}$'
+        i_d = r'i$_D$'
+        ax.vlines(x=x_point, ymax=y_max, ymin=0, linestyles='dashed')
+        ax.annotate(text=f'{v_ov} = {x_point} V\n{i_d} = {y_max * 1000:.1f} mA', xy=(x_point + 0.1, y_max - 0.012),
+                    bbox=dict(boxstyle='round,pad=0.5', edgecolor='gray', facecolor='white', alpha=0.7)
+                    )
 
 
     ax.set_yticklabels([f"{round(x * 1000)}" for x in list(ax.get_yticks().tolist())])
