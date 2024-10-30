@@ -56,7 +56,7 @@ def gain_9_46():
 def rl_1meg():
     data = pd.read_csv('../data/scope_38.csv', header=1)
     vin = data['Volt']
-    vout = data['Volt.1']
+    vout = data['Volt.1'] - data['Volt.1'].mean()
     plot_vin_vout(data['second'], vin, vout, 'rl_1meg', xpos_vin=-0.00025, xpos_vout=-0.0009, legend_pos='upper right')
 
 def rl_470():
