@@ -13,19 +13,19 @@
   (-2, -2) node[ground]{}
   to[sV, v^<=$V_\textnormal{sig}$] (-2, 0)
   to[resistor, l=R$_\textnormal{sig}$] (-2, 2)
-  to[capacitor, l=C$_\textnormal{C1}$] (0, 2)
+  to[short] (0, 2)
   to[resistor, l=R$_G$] (0, 0) node[ground]{};
   \draw (2, 2) node[nmos](Q1){};
   \draw (0, 2) to[short, *-] (Q1.gate);
-  \draw (2, 5) node[vcc]{15\,\textnormal{V}} to[resistor, l_=R$_D$] (Q1.drain);
-  \draw (2, 3) to[capacitor, l=C$_\textnormal{C2}$, *-] (4,3)
+  \draw (1, 5) node[ground]{} -- (2, 5) to[resistor, l_=R$_D$] (Q1.drain);
+  \draw (2, 3) to[short, -*] (4,3)
   to [short, -*] (5,3)
   to [resistor, l=R$_L$] (5, 1) node[ground]{};
   \draw (5, 3) to[short, *-o] (6,3)
   to[open, v=V$_{o}$] (6, 0);
   \draw (Q1.source) to[short, -*] (2,1)
-  to[capacitor, l=C$_\textnormal{S}$] (4, 1) node[ground]{};
-  \draw (2, 1) to[resistor, l=R$_S$] (2, -1) node[vee]{-15\,\textnormal{V}};
+  to[short, *-] (4, 1) node[ground]{};
+  \draw (2, 1) to[resistor, l=R$_S$] (2, -1) node[ground]{};
 
 \end{circuitikz}
 

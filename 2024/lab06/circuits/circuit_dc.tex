@@ -1,0 +1,22 @@
+\documentclass{standalone}
+
+\usepackage{circuitikz}
+
+\begin{document}
+
+\begin{circuitikz}[american] 
+  \ctikzset{tripoles/mos style/arrows}
+  \def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
+  % \draw [help lines, red, thin, dotted] (-4, -4) grid (5, 5);
+
+  \draw (0, 2)
+  to[resistor, l=R$_G$] (0, 0) node[ground]{};
+  \draw (2, 2) node[nmos](Q1){};
+  \draw (0, 2) -- (Q1.gate);
+  \draw (2, 5) node[vcc]{15\,\textnormal{V}} to[resistor, l_=R$_D$] (Q1.drain);
+  \draw (Q1.source) -- (2,1)
+  to[resistor, l=R$_S$] (2, -1) node[vee]{-15\,\textnormal{V}};
+
+\end{circuitikz}
+
+\end{document}

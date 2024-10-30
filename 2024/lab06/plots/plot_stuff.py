@@ -77,6 +77,20 @@ def vi_1v():
     vout = data['Volt.1']
     plot_vin_vout(data['second'], vin, vout, 'vi_1v', xpos_vin=-0.0005, legend_pos='upper right')
 
+def sim():
+    data = pd.read_csv("../sim/sim_results.csv")
+    vin_raw = data['Y--Trace 1::[I(Q1:D) | I(I_D)]']
+    vout_raw = data['Y--Trace 2::[V(2) - V(4) | V(V_DS)]']
+    time_raw = data['X--Trace 1::[I(Q1:D) | I(I_D)]']
+    vin_2 = vin_raw * 80
+    vin = vin_2 - vin_2.mean()
+
+    vout = vout_raw - vout_raw.mean()
+    time = time_raw - 0.0015
+
+    plot_vin_vout(time, vin, vout, 'sim')
+    plot_vin_vout(time, vin_raw, vout_raw, 'sim_raw')
+
 
 def main():
     gain_6_67()
@@ -86,6 +100,7 @@ def main():
     vi_250m()
     vi_1v()
 
+    sim()
 
 if __name__ == "__main__":
     plt.rcParams['axes.prop_cycle'] = plt.cycler(color=['#8a787c', '#492365'])
