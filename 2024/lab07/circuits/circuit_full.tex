@@ -1,0 +1,30 @@
+\documentclass{standalone}
+
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{circuitikz}[american] 
+  \ctikzset{tripoles/mos style/arrows}
+  \def\killdepth#1{{\raisebox{0pt}[\height][0pt]{#1}}}
+  % \draw [help lines, red, thin, dotted] (-4, -4) grid (5, 5);
+
+  \draw (-2, -2) node[ground]{}
+  to[sV, v^<=$V_\textnormal{sig}$] (-2,0)
+  to[resistor, l=R$_\textnormal{sig}$] (-2, 2)
+  to[capacitor, l=$47~\si{\uF}$] (0, 2)
+  to[resistor, l=R$_G$] (0, 0) node[ground]{};
+  \draw (2, 2) node[nmos](Q1){};
+  \draw (0, 2) to[short, *-] (Q1.gate);
+  \draw (2, 3) node[vcc]{15 V} to[short] (Q1.drain);
+  \draw (Q1.source) -- (2, 1)
+  to[resistor, l=R$_S$] (2, -1) node[vee]{-15 V};
+  \draw (2, 1) to[capacitor, l=$47~\si{\uF}$, *-*] (4, 1)
+  to[resistor, l=R$_L$] (4, -1) node[ground]{};
+  \draw (4, 1) to[short, -o] (5, 1)
+  to[open, v=V$_o$] (5, -1.5);
+
+\end{circuitikz}
+
+\end{document}
