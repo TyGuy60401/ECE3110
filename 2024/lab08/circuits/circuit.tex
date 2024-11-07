@@ -1,0 +1,33 @@
+\documentclass{standalone}
+
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+
+
+\begin{circuitikz}[american] 
+  % \draw[help lines, dotted, red, thin] (-4, -4) grid (4, 4);
+  % \draw [thin, blue] (-4, 0) -- (4, 0);
+  % \draw [thin, blue] (0, -4) -- (0, 4);
+
+  \draw (0, -2) node[ground] (GND) {};
+  \draw (0, 0) node[npn] (NPN) {};
+
+  \draw (NPN.base)
+    -- (-2, 0)
+    to[V, v_<=$V_{BE}$] (-2, 0 |- GND)
+    -- (GND);
+
+  \draw (NPN.collector) -- ++(2, 0)
+    to[V, v<=$V_{CE}$] (2, -2)
+    to[short, -*] (GND)
+    -- (NPN.emitter);
+
+  \draw[-{Stealth}, thick] (-1.7, 0.25) to[short, l=$I_B$] ++(0.6, 0);
+  \draw[-{Stealth}, thick] (1.5, 1) to[short, l_=$I_C$] ++(-0.6, 0);
+
+
+\end{circuitikz}
+
+\end{document}
