@@ -1,0 +1,135 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\setlength{\parindent}{0pt}
+\usepackage{enumitem}
+\begin{document}
+\small
+
+\title{\vspace{-1cm} \textbf{MOSFET Amplifier Summary}}
+\date{}
+\maketitle
+
+\begin{multicols}{2}
+\section*{1. Overview of MOSFETs}
+\textbf{MOSFET Structure}: Four terminals - Gate (G), Source (S), Drain (D), and Body (B). Two types:
+\begin{itemize}[noitemsep]
+    \item \textbf{nMOS}: n-channel, p-type substrate, electrons as majority carriers.
+    \item \textbf{pMOS}: p-channel, n-type substrate, holes as majority carriers.
+\end{itemize}
+\textbf{Operating Regions}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Cutoff}: \(V_{GS} < V_t\); no channel, \(I_D = 0\).
+    \item \textbf{Triode}: \(V_{GS} > V_t\), \(V_{DS} < V_{OV}\); MOSFET behaves as a variable resistor.
+    \item \textbf{Saturation}: \(V_{GS} > V_t\), \(V_{DS} \geq V_{OV}\); MOSFET acts as a current source, suitable for amplification.
+\end{itemize}
+
+\textbf{Body Effect}: The threshold voltage \(V_t\) is modified by a non-zero \(V_{BS}\):
+\[
+V_t = V_{t0} + \gamma (\sqrt{|2\phi_F + V_{BS}|} - \sqrt{|2\phi_F|})
+\]
+where \(V_{t0}\) is \(V_t\) when \(V_{BS} = 0\), \(\gamma\) is the body-effect coefficient, and \(\phi_F\) is the Fermi potential.
+
+\textbf{Drain Current (Saturation)}: With channel-length modulation:
+\[
+I_D = \frac{1}{2} k_n \frac{W}{L} (V_{GS} - V_t)^2 (1 + \lambda V_{DS})
+\]
+where \(\lambda\) is the channel-length modulation parameter.
+
+\section*{2. MOSFET Amplifier Configurations}
+MOSFETs in saturation are used in amplifiers. The three main amplifier configurations are Common-Source (CS), Common-Gate (CG), and Source Follower (SF).
+
+\subsection*{A. Common-Source (CS) Amplifier}
+\textbf{Features}:
+\begin{itemize}[noitemsep]
+    \item Provides high voltage gain, inverts input signal.
+    \item Moderate input impedance.
+    \item Used for general voltage amplification.
+\end{itemize}
+\textbf{Voltage Gain}:
+\[
+A_v = -g_m (R_D || r_o)
+\]
+where \(g_m = \frac{\partial I_D}{\partial V_{GS}} = \frac{2 I_D}{V_{OV}}\) and \(r_o = \frac{1}{\lambda I_D}\).  
+\textbf{Application}: General amplification, audio amplification.  
+\textbf{Improvement}: Add a source resistor for negative feedback, improving linearity and stability.
+
+\subsection*{B. Common-Gate (CG) Amplifier}
+\textbf{Features}:
+\begin{itemize}[noitemsep]
+    \item High voltage gain, no phase inversion.
+    \item Low input impedance, suitable for high-frequency applications.
+\end{itemize}
+\textbf{Voltage Gain}:
+\[
+A_v = g_m R_D
+\]
+\textbf{Application}: Impedance matching, RF amplifiers.
+
+\subsection*{C. Source Follower (Common-Drain)}
+\textbf{Features}:
+\begin{itemize}[noitemsep]
+    \item Unity gain (no voltage gain).
+    \item High input impedance, low output impedance, used for buffering.
+    \item No signal inversion.
+\end{itemize}
+\textbf{Voltage Gain}:
+\[
+A_v \approx 1
+\]
+\textbf{Application}: Impedance buffering, signal isolation.
+
+\section*{3. Key Amplifier Parameters}
+\begin{itemize}[noitemsep]
+    \item \textbf{Voltage Gain} \(A_v\): Ratio of output to input voltage.
+    \item \textbf{Input Resistance} \(R_{in}\): Indicates how much the amplifier loads the source.
+    \item \textbf{Output Resistance} \(R_{out}\): Affects how the amplifier drives the load.
+\end{itemize}
+
+\section*{4. Small-Signal Model}
+\textbf{Components}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Controlled current source} \(g_m v_{gs}\): Represents gate control over drain current.
+    \item \textbf{Output resistance} \(r_o\): Models channel-length modulation.
+    \item \textbf{Capacitances} \(C_{gs}\) and \(C_{gd}\): Represent parasitic effects, limit high-frequency response.
+\end{itemize}
+
+\section*{5. Practical Amplifier Design}
+\textbf{Biasing Methods}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Fixed bias}: Simple but highly sensitive to MOSFET variations.
+    \item \textbf{Voltage-divider bias}: More stable, uses extra resistors.
+    \item \textbf{Current-source bias}: Precision biasing, complex to implement.
+\end{itemize}
+
+\textbf{Coupling Capacitors}: Used to block DC components while allowing AC signals to pass, enabling independent biasing of each amplifier stage.
+
+\textbf{Gain-Bandwidth Trade-Off}: Amplifiers have a constant gain-bandwidth product, so increasing gain reduces bandwidth.
+
+\section*{6. MOSFETs in Digital Circuits}
+In digital applications, MOSFETs are typically used in **cutoff** and **saturation** regions to function as switches:
+\begin{itemize}[noitemsep]
+    \item \textbf{Cutoff (Off State)}: \(V_{GS} < V_t\), no current flows.
+    \item \textbf{Saturation (On State)}: \(V_{GS} > V_t\) and \(V_{DS} > V_{OV}\), maximum current flows.
+\end{itemize}
+
+\section*{7. Procedure for Analyzing MOSFET Amplifiers}
+1. Determine the DC operating point (biasing).
+2. Derive the small-signal model based on the operating point.
+3. Solve for gain, input resistance, and output resistance using small-signal parameters.
+4. Verify assumptions such as small-signal conditions and MOSFET operating region.
+
+\section*{8. Key Terms and Definitions}
+\begin{itemize}[noitemsep]
+    \item \textbf{Transconductance} \(g_m\): Sensitivity of \(I_D\) to \(V_{GS}\), given by \(g_m = \frac{2 I_D}{V_{OV}}\).
+    \item \textbf{Body Effect}: Modification of \(V_t\) due to \(V_{BS}\) (body-source voltage).
+    \item \textbf{Channel-Length Modulation} (\(\lambda\)): Change in \(I_D\) with \(V_{DS}\) in saturation due to effective channel shortening.
+    \item \textbf{Process Transconductance Parameter} \(k_n'\): Depends on electron mobility and oxide capacitance, differs for NMOS and PMOS.
+\end{itemize}
+
+\section*{Conclusion}
+MOSFETs are versatile devices, integral to both digital and analog circuits. While digital applications utilize MOSFETs as switches in cutoff and saturation, analog applications leverage the amplification properties in the saturation region. Understanding amplifier configurations (CS, CG, SF) and their respective parameters (gain, input/output resistance) is essential for circuit design.
+
+\end{multicols}
+\end{document}

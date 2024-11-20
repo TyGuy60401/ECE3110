@@ -1,0 +1,105 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\setlength{\parindent}{0pt}
+\usepackage{enumitem}
+\begin{document}
+\small
+
+\begin{multicols}{2}
+\section*{1. MOSFET Overview}
+\textbf{Structure and Types}: MOSFETs have four terminals: Gate (G), Source (S), Drain (D), and Body (B). The two main types are:
+\begin{itemize}[noitemsep]
+    \item \textbf{nMOS}: n-channel, p-type substrate, electrons as majority carriers.
+    \item \textbf{pMOS}: p-channel, n-type substrate, holes as majority carriers.
+\end{itemize}
+\textbf{Operating Regions}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Cutoff}: \(V_{GS} < V_t\), no channel, \(I_D = 0\).
+    \item \textbf{Triode}: \(V_{GS} > V_t, V_{DS} < V_{OV}\), MOSFET acts as a resistor.
+    \item \textbf{Saturation}: \(V_{GS} > V_t, V_{DS} \geq V_{OV}\), MOSFET acts as a current source.
+\end{itemize}
+\textbf{Body Effect}: Threshold voltage \(V_t\) changes with body-to-source voltage \(V_{BS}\):
+\[
+V_t = V_{t0} + \gamma (\sqrt{|2\phi_F + V_{BS}|} - \sqrt{|2\phi_F|})
+\]
+where \(V_{t0}\) is \(V_t\) at \(V_{BS}=0\), \(\gamma\) is the body-effect coefficient, and \(\phi_F\) is the Fermi potential.
+
+\section*{2. Amplifier Configurations}
+\textbf{Key Configurations}:
+\begin{enumerate}[noitemsep]
+    \item \textbf{Common-Source (CS)}:
+        \begin{itemize}[noitemsep]
+            \item High gain, inverts signal, moderate input impedance.
+            \item Voltage gain: \(A_v = -g_m (R_D || r_o)\).
+        \end{itemize}
+    \item \textbf{Common-Gate (CG)}:
+        \begin{itemize}[noitemsep]
+            \item No signal inversion, low input impedance, high gain.
+            \item Voltage gain: \(A_v = g_m R_D\).
+        \end{itemize}
+    \item \textbf{Source Follower (SF)}:
+        \begin{itemize}[noitemsep]
+            \item Unity gain, high input impedance, low output impedance.
+            \item Voltage gain: \(A_v \approx 1\).
+        \end{itemize}
+\end{enumerate}
+
+\section*{3. MOSFET Characteristics}
+\textbf{Drain Current (Saturation)}:
+\[
+I_D = \frac{1}{2} k_n \frac{W}{L} (V_{GS} - V_t)^2 (1 + \lambda V_{DS})
+\]
+where \(\lambda\) accounts for channel-length modulation.  
+\textbf{Transconductance \(g_m\)}:
+\[
+g_m = \frac{\partial I_D}{\partial V_{GS}} = \frac{2I_D}{V_{OV}}, \quad V_{OV} = V_{GS} - V_t
+\]
+
+\section*{4. Small-Signal Model}
+\textbf{Components}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Controlled current source} \(g_m v_{gs}\): Models gate control over drain current.
+    \item \textbf{Output resistance} \(r_o\): Models channel-length modulation.
+    \item \textbf{Parasitic capacitances}: \(C_{gs}, C_{gd}\), limiting high-frequency performance.
+\end{itemize}
+\textbf{Gain-Bandwidth Trade-Off}: Increasing gain reduces bandwidth due to the constant gain-bandwidth product.
+
+\section*{5. Practical Design Notes}
+\textbf{Biasing Methods}:
+\begin{itemize}[noitemsep]
+    \item \textbf{Fixed bias}: Simple, sensitive to parameter variations.
+    \item \textbf{Voltage-divider bias}: Stable, adds resistors.
+    \item \textbf{Current-source bias}: High precision, complex design.
+\end{itemize}
+\textbf{Coupling Capacitors}: Allow AC signals while blocking DC, enabling independent biasing of stages.
+
+\section*{6. MOSFETs in Digital Circuits}
+\textbf{Applications}: Operated as switches in cutoff (\(V_{GS} < V_t\)) and saturation (\(V_{GS} > V_t, V_{DS} > V_{OV}\)) regions for digital logic.
+
+\section*{7. Amplifier Analysis Procedure}
+1. Determine DC operating point (biasing).  
+2. Develop small-signal model.  
+3. Solve for gain, input resistance, and output resistance.  
+4. Verify assumptions (small-signal conditions, operating region).
+
+\section*{8. Key Parameters}
+\begin{itemize}[noitemsep]
+    \item \textbf{Voltage Gain} (\(A_v\)): Ratio of output to input voltage.
+    \item \textbf{Input Resistance} (\(R_{in}\)): Determines loading on input source.
+    \item \textbf{Output Resistance} (\(R_{out}\)): Affects ability to drive loads.
+\end{itemize}
+
+\section*{9. Definitions and Notes}
+\begin{itemize}[noitemsep]
+    \item \textbf{Channel-Length Modulation (\(\lambda\))}: Causes \(I_D\) to depend on \(V_{DS}\) in saturation.
+    \item \textbf{Process Transconductance Parameter (\(k_n'\))}: Depends on carrier mobility and oxide capacitance.
+    \item \textbf{Threshold Voltage (\(V_t\))}: Gate voltage needed to form a conducting channel.
+\end{itemize}
+
+\section*{10. Summary}
+MOSFET amplifiers leverage the transistor's operation in saturation for signal amplification. CS, CG, and SF configurations serve different purposes, balancing gain, impedance, and signal characteristics. Proper biasing and small-signal modeling are critical for effective amplifier design.
+
+\end{multicols}
+\end{document}
