@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.21)  7 DEC 2024 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.21)  8 DEC 2024 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,11 +722,13 @@ dav/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 [2]) (sections/other_types.tex
 
-[3]) (sections/history.tex) (sections/future.tex)
+[3]) (sections/history.tex) (sections/other.tex
 
-[4]
+[4]) (sections/conclusion.tex)
 
-[5] (research_paper.aux)
+[5]
+
+[6] (research_paper.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -738,10 +740,10 @@ Package logreq Info: Writing requests to 'research_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18884 strings out of 473899
- 341917 string characters out of 5726499
+ 18894 strings out of 473899
+ 342191 string characters out of 5726499
  1268021 words of memory out of 5000000
- 41512 multiletter control sequences out of 15000+600000
+ 41517 multiletter control sequences out of 15000+600000
  567833 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,81p,705b,4391s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -750,9 +752,9 @@ cmmi8.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/tydav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on research_paper.pdf (5 pages, 75360 bytes).
+Output written on research_paper.pdf (6 pages, 78996 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
