@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+
+%
+%Margin - 1 inch on all sides
+%
+\usepackage{hyperref}
+\usepackage[letterpaper]{geometry}
+\usepackage{times}
+\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+%
+%Doublespacing
+%
+\usepackage{setspace}
+\singlespacing
+
+%
+%Rotating tables (e.g. sideways when too long)
+%
+\usepackage{rotating}
+
+
+%
+%Fancy-header package to modify header/page numbering (insert last name)
+%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{} 
+\chead{} 
+\rhead{Davis \thepage} 
+\lfoot{} 
+\cfoot{} 
+\rfoot{} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+\setlength{\headheight}{14.5pt}
+%To make sure we actually have header 0.5in away from top edge
+%12pt is one-sixth of an inch. Subtract this from 0.5in to get headsep value
+\setlength\headsep{0.333in}
+
+%
+%Bibtex and Bibliography
+%
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=mla,backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
+
+%
+%Begin document
+%
+\begin{document}
+\begin{flushleft}
+
+%%%%First page name, class, etc
+Ty Davis\\
+Dr. Justin Jackson\\
+ECE 3110\\
+\today \\
+
+
+%%%%Title
+\begin{center}
+  Application and Types of Rectifier Circuits
+\end{center}
+
+
+
+%%%%Changes paragraph indentation to 0.5in
+\setlength{\parindent}{0.5in}
+%%%%Begin body of paper here
+
+\input{sections/intro}
+
+\subsubsection*{Operation of Rectifier Circuits}
+\input{sections/operation}
+
+\subsubsection*{Common Types of Rectifier Circuits}
+\input{sections/types}
+
+\subsubsection*{Other Types of Rectifier Circuits}
+\input{sections/other_types}
+
+\subsubsection*{The First Rectifier Circuits}
+\input{sections/history}
+
+\subsubsection*{Future Applications of Rectifiers}
+\input{sections/future}
+
+
+
+\newpage
+\nocite{*}
+
+\printbibliography
+
+\end{flushleft}
+\end{document}

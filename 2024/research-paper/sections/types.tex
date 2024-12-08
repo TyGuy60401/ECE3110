@@ -1,0 +1,63 @@
+% !TeX root = ..\research_paper.tex
+
+The rectifier circuit roughly explained earlier includes
+only a diode and a capacitor (acting as a reservoir
+capacitor) to transfer an AC source into a DC output.
+This rectifier circuit is commonly referred to as a
+half-wave rectifier because it only allows half of the
+input wave to come through. The benefits of a half-wave
+rectifier are few, though there are certainly use cases
+for it. The largest benefit of a half-wave rectifier
+is the low cost. Because it uses only a single diode
+and capacitor, the circuit is extremely cheap to manufacture.
+On the other hand, the ripple factor of the rectifier
+circuit is significantly higher when using a half-wave
+rectifier circuit.
+
+An alternative to the half-wave rectifier is the full-wave
+rectifier. The full-wave rectifier behaves mathematically
+as the absolute value of the input source. When the
+AC input shows a negative voltage, it is effectively
+inverted and becomes a equivalent positive voltage on
+the output. These can be realized in several different
+combinations, but the most common are the center-tap
+and bridge rectifiers. A full bridge rectifier uses
+a net of 4 diodes that are configured in such a way
+that when the voltage from the AC source is positive
+the current flows through half of the circuit, and when
+the AC source is providing negative voltage the circuit
+flows through the other half. The voltage flowing through
+the negative half of the circuit is coming from the
+negative terminal of the AC source, and because it is
+in its negative cycle the voltage appears positive to
+the relative ground, and the voltage on the output is
+positive as well. This configuration allows the input
+waveform to pass through when it is positive, and when
+it is negative it is effectively inverted and allowed
+to pass through once again. The downside of the full-bridge
+rectifier circuit is that it takes four diodes to accomplish
+this task. This makes it significantly more expensive
+when compared with the half-wave rectifier from earlier,
+but it is much easier to remove ripple because the output
+waveform reaches the maximum twice as often.
+
+An alternative to the bridge rectifier circuit is the
+center-tap rectifier. A downside of this circuit is
+that it can only be used in conjunction with a transformer
+on the input. This is because the theory of a center-tap
+rectifier relies on attaching the very center of the
+transformer to the ground reference, so that when the
+AC input switches from positive to negative, the negative
+terminal of the center-tapped transformer appears positive
+to that side of the circuit. Then, by placing a diode
+on each end of the transformer and pointing towards
+the load, you receive a full-wave rectified output.
+While it requires the use of a transformer on the input,
+this usually isn't an issue because a transformer is
+likely already in place, especially if the circuit is
+being built to use the input from something like the
+wall power in your home which is fit for general use.
+This rectifier provides a benefit over the full-bridge
+rectifier circuit because it uses only two diodes instead
+of four, which makes it more cost effective.
+

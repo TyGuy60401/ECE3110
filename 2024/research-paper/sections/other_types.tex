@@ -1,0 +1,67 @@
+% !TeX root = ..\research_paper.tex
+
+There are also other forms of rectifiers which are not
+discussed in the textbook. Such rectifiers rely on other
+types of components, such as the thyristor. The thyristor
+can be thought of as a two BJT transistors overlaid
+such that they share a PN junction. The thyristor is
+similar in theory to a voltage controlled diode, but
+when the thyristor's gate is supplied with current the
+thyristor doesn't turn off until the forward current
+is removed. Similar to diodes, the thyristor does not
+allow reversed current. The thyristor is also known
+by the name \emph{silicon-controlled rectifier} (SCR).
+It differs from a typical diode because it blocks forward
+current if there isn't a gate pulse provided.
+
+Because a gate pulse can be used to select the exact
+time that the SCR starts conducting, using a SCR in
+a rectifier circuit can allow for more control in the
+output of the rectifier circuit that it is being used
+in. Changing the time when the SCR starts conducting
+relative to the period of the AC waveform allows for
+control over the resulting DC voltage that the output
+of the circuit sees. Despite being called a rectifier,
+the SCR can be applied in the design of an inverter,
+which converts a DC source into an AC output, essentially
+the opposite of a rectifier.
+
+Another benefit of the thyristor is the large amount
+of forward current that it is able to deliver. In high-power
+applications, the thyristor is an effective tool for
+accurate rectification. Such devices that might rely on
+high-power rectification are items such as ``dimmable lamps,
+power regulators, and motors'' (\cite{thyristorapplications}). 
+
+Rectifier circuits made an appearance in the design
+of switched-mode power supplies (SMPS). Because an SMPS
+switches the internal components on and off rapidly
+to preserve power and improve efficiency, the device
+will require either at least one rectifier on the output.
+An SMPS will also usually be powered by some form of
+AC source, so the input will need to be rectified as
+well before being put through the pipeline of the power
+supply. The rectifier on the output of the SMPS can
+often be improved by the use of a Schottky diode. A
+Schottky diode differs from a normal diode because it
+is a semiconductor material placed next to a metal instead
+of another semiconductor material. Schottky diodes possess
+a number of advantages over their standard PN-junction
+counterparts. They possess a lower forward voltage drop
+--- usually around 0.2~V to 0.4~V --- than a standard
+0.7~V diode, which allows them to be more efficient
+on the output rectification step of the SMPS. This is
+even more crucial for low-voltage SMPS designs, such
+as those used in 3.3~V or 5~V devices.
+
+Another advantage of the Schottky diodes in an SMPS
+is the high switching speed that they possess. This
+is because they lack the charge storage associated with
+the P-N junction, and as such don't feel the same diffusion
+capacitance effect that the standard diodes feel. Despite
+these advantages, Schottky diodes aren't always used
+in place of normal diodes for a few reasons. Primarily,
+the reverse breakdown voltage is lower than in a normal
+diode, and the cost of Schottky diodes is higher on
+average than a standard P-N junction diode.
+

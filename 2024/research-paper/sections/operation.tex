@@ -1,0 +1,81 @@
+% !TeX root = ..\research_paper.tex
+
+Alternating current, as shown by its name, alternates
+between a positive current and a negative current as
+time progresses, and as such it pushes and pulls the
+current in whatever circuit is connected to it. Modern
+rectifier circuits are built with semiconductor diodes
+(usually made of silicon) and operate on the idea that
+a diode only conducts eletricity in one direction. So,
+when the AC source is pushing current through the diode,
+the diode allows the current to flow through, but when
+the AC source attempts to pull the current back, the
+diode stops the flow of current, preventing a negative
+voltage from appearing across the diode.
+
+This phenomenon makes it so that the negative component
+of the AC input is completely removed, and naturally,
+the positive component is all that remains (\cite{sinclair1987electronics}).
+The resulting average DC voltage that results is hence
+positive, whereas the average voltage of the AC input
+is always 0~V. The output of that rectifier is then
+put through other stages of processing to change its
+waveform from a half-sine shape to a steady DC voltage.
+
+It is good to note that current flow through a diode
+is not ideal as it has been explained up to this point.
+The current through a diode does not occur when the
+voltage is only just above 0~V. As we learned in lecture
+this year, the voltage required across a diode such
+that it allows current to pass through can be approximated
+with the constant drop model at 0.7~V. The current-voltage
+characteristic of a diode is not simple, but that rough
+approximation is enough in most situations. This can
+have an affect on the operation of a rectifier circuit.
+When the AC input to a rectifier circuit is relatively
+small, say around 5~V$_{pk}$, that 0.7~V drop can make
+a significant difference in the DC output of the circuit.
+On the other hand, if the required voltage output of
+a rectifier is an order of magnitude or more higher,
+then the 0.7~V drop won't have as much of an effect
+and can be considered negligible.
+
+As consumer electronics are being pushed towards lower
+operating voltages, the 0.7~V drop is playing a bigger
+role in the design of rectifier circuits. Other circuits,
+such as precision rectifier circuits as will be covered
+later in this paper, make use of op-amps or other components
+to emulate an ideal diode and solve this problem.
+
+When designing a rectifier circuit, there are some key
+parameters of the output to keep in mind that can have
+an effect on the performance of the device. Because
+the translation of an AC source to a DC source is not
+perfect, the output waveform will likely result in some
+ripple. As such, the ripple factor is an important element
+of consideration. If the device that requires a DC output
+is sensitive to small changes in that DC power source,
+a poorly designed rectifier circuit can cause it to
+malfunction. As a reservoir capacitor is commonly used
+to keep the voltage on the output from dipping with
+the input, a heavy load on the circuit can cause a larger
+ripple. ``When the current taken by the load is negligibly
+small, the output voltage is almost perfectly smooth
+DC. When an appreciable amount of current is being drawn,
+however, the output contains fluctuations of lower amplitude.
+This is because the reservoir capacitor is supplying
+current during the time that the diodes are not conducting''
+(\cite{sinclair1987electronics}).
+
+Another important consideration when designing a rectifier
+circuit is the peak inverse voltage (PIV). The PIV is
+the voltage that the diode experiences when it is reverse
+biased and not conducting electricity. If the PIV exceeds
+the breakdown voltage of the diode in use, it can lead
+to catastrophic effects as the voltage across the diode
+will suddenly appear negative. A suggestion is made to be
+conscious of the breakdown voltage of a specific diode when building
+a circuit, ``It is usually prudent ... to select a diode
+that has a reverse breakdown voltage at least 50\% greater than
+the expected PIV'' (\cite{sedra2010microelectronic}).
+

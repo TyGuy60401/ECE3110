@@ -1,0 +1,221 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{9661828}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4ca5f9cb20e13d67d2dffe4a1be6f1fe}{%
+           family={Hirakawa},
+           familyi={H\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a642b370f28900020add4ab32ed7f8a}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18e46acf5371f9afc052b69e9d3709db}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Yuta},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad415bdb7351ce23aa8d232a50d8e259}{%
+           family={Ohta},
+           familyi={O\bibinitperiod},
+           given={Yoshichika},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8738603797edaad0917bb9730ca931d}
+      \strng{fullhash}{556bf670aa9a880c86d1047895ced0e5}
+      \strng{fullhashraw}{556bf670aa9a880c86d1047895ced0e5}
+      \strng{bibnamehash}{d8738603797edaad0917bb9730ca931d}
+      \strng{authorbibnamehash}{d8738603797edaad0917bb9730ca931d}
+      \strng{authornamehash}{d8738603797edaad0917bb9730ca931d}
+      \strng{authorfullhash}{556bf670aa9a880c86d1047895ced0e5}
+      \strng{authorfullhashraw}{556bf670aa9a880c86d1047895ced0e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE Asia-Pacific Microwave Conference (APMC)}
+      \field{title}{Theoretical Analysis of Ideal Full-Bridge Rectifier with High-Frequency Input}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{287\bibrangedash 289}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/APMC52720.2021.9661828
+      \endverb
+      \keyw{Bridges;Simulation;Conferences;Rectifiers;Focusing;Wireless power transfer;Boosting;rectifier;theory;analysis;full-bridge rectifier;RF-DC conversion efficiency;wireless power transmission;single shunt rectifier}
+    \endentry
+    \entry{thyristorapplications}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=745b0c2e9ff851cc2a585c9db61471c4}{%
+           family={Markad},
+           familyi={M\bibinitperiod},
+           given={Shubham\bibnamedelima Atmaram},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{fullhash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{fullhashraw}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{bibnamehash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{authorbibnamehash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{authornamehash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{authorfullhash}{745b0c2e9ff851cc2a585c9db61471c4}
+      \strng{authorfullhashraw}{745b0c2e9ff851cc2a585c9db61471c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of applied research}
+      \field{title}{Thyristor and their applications}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{595\bibrangedash 597}
+      \range{pages}{3}
+    \endentry
+    \entry{4383399}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a8096fd976b6e4ce5323fdabefbb941}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={E.L.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{fullhash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{fullhashraw}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{bibnamehash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{authorbibnamehash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{authornamehash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{authorfullhash}{6a8096fd976b6e4ce5323fdabefbb941}
+      \strng{authorfullhashraw}{6a8096fd976b6e4ce5323fdabefbb941}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Industry Applications Magazine}
+      \field{number}{6}
+      \field{title}{SCR Is 50 Years Old [History]}
+      \field{volume}{13}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{6\bibrangedash 10}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MIA.2007.907204
+      \endverb
+      \keyw{Transistors;Rectifiers;Switches;Silicon;Thyristors;Electron tubes}
+    \endentry
+    \entry{sedra2010microelectronic}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6a3b22fe544fa58cf6a67562f622e136}{%
+           family={Sedra},
+           familyi={S\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7c5de07714b90ca4c3ded197895c59e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford UP}%
+      }
+      \strng{namehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{fullhash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{fullhashraw}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{bibnamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authorbibnamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authornamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authorfullhash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authorfullhashraw}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Oxf ser Elec Series}
+      \field{title}{Microelectronic Circuits}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb Google Books
+      \endverb
+      \verb{urlraw}
+      \verb books.google.com/books?id=wDQJQQAACAAJ
+      \endverb
+      \verb{url}
+      \verb books.google.com/books?id=wDQJQQAACAAJ
+      \endverb
+    \endentry
+    \entry{sinclair1987electronics}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2697494dab2e194e675525aee71db359}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={I.R.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Industrial P}%
+      }
+      \strng{namehash}{2697494dab2e194e675525aee71db359}
+      \strng{fullhash}{2697494dab2e194e675525aee71db359}
+      \strng{fullhashraw}{2697494dab2e194e675525aee71db359}
+      \strng{bibnamehash}{2697494dab2e194e675525aee71db359}
+      \strng{authorbibnamehash}{2697494dab2e194e675525aee71db359}
+      \strng{authornamehash}{2697494dab2e194e675525aee71db359}
+      \strng{authorfullhash}{2697494dab2e194e675525aee71db359}
+      \strng{authorfullhashraw}{2697494dab2e194e675525aee71db359}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electronics for Electricians and Engineers}
+      \field{year}{1987}
+      \verb{eprint}
+      \verb Google Books
+      \endverb
+      \verb{urlraw}
+      \verb books.google.com/books?id=Epf47B0MKgwC
+      \endverb
+      \verb{url}
+      \verb books.google.com/books?id=Epf47B0MKgwC
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
